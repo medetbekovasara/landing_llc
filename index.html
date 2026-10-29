@@ -1,1026 +1,321 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Курсы права и бухгалтерии</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Практические курсы по юриспруденции, бухгалтерскому учёту и налогам в Кыргызской Республике. Программы, преподаватели, формат обучения и запись на курс.">
-<meta property="og:type" content="website">
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Премьер Аудит — юридические и бухгалтерские услуги в Бишкеке</title>
+<meta name="description" content="Юридическое и бухгалтерское сопровождение бизнеса в Бишкеке и Кыргызстане: договоры, суды, регистрация, ликвидация, налоги и отчётность.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="ОсОО «Премьер Аудит»">
+<meta name="theme-color" content="#0f5da6">
+<link rel="canonical" href="https://premier-audit.kg/">
+<link rel="icon" type="image/png" href="logo.png">
 <meta property="og:locale" content="ru_KG">
-<meta property="og:title" content="Курсы права и бухгалтерии — практическое право для работы и бизнеса">
-<meta property="og:description" content="Практические курсы по юриспруденции и бухгалтерии для работы с документами и бизнес-процессами в Кыргызстане.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Премьер Аудит">
+<meta property="og:title" content="Премьер Аудит — юридические и бухгалтерские услуги в Бишкеке">
+<meta property="og:description" content="Одна команда для юридических задач, регистрации, судов, ликвидации и бухгалтерского сопровождения бизнеса.">
+<meta property="og:url" content="https://premier-audit.kg/">
+<meta property="og:image" content="https://premier-audit.kg/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Премьер Аудит — юридические и бухгалтерские услуги в Бишкеке">
+<meta name="twitter:description" content="Юридическое и бухгалтерское сопровождение бизнеса в Бишкеке и Кыргызстане.">
+<meta name="twitter:image" content="https://premier-audit.kg/logo.png">
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":["LegalService","AccountingService"],
+  "name":"Премьер Аудит",
+  "alternateName":"ОсОО «Премьер Аудит»",
+  "url":"https://premier-audit.kg/",
+  "logo":"https://premier-audit.kg/logo.png",
+  "description":"Юридическое и бухгалтерское сопровождение малого и среднего бизнеса в Бишкеке и Кыргызстане.",
+  "telephone":"+996555000000",
+  "email":"info@premier-audit.kg",
+  "priceRange":"$$",
+  "areaServed":{"@type":"Country","name":"Кыргызстан"},
+  "address":{"@type":"PostalAddress","addressLocality":"Бишкек","addressCountry":"KG"},
+  "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"}
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-/* Flat Design: плоские цветные блоки вместо линий и теней, иерархия через размер и цвет.
-   Сетка 12 колонок, контейнер 1280px. Breakpoints: 640 / 900 / 1024. Одна светлая палитра (намеренно). */
-:root {
-  color-scheme: light;
-  /* Палитра дизайн-системы */
-  --white: #FFFFFF;
-  --fg: #111827;
-  --fg-2: #4B5563;
-  --primary: #1699D4;          /* голубой акцент логотипа */
-  --primary-strong: #07549A;   /* кнопки и поверхности с текстом */
-  --primary-hover: #063D75;
-  --navy: #0B3B78;             /* фирменный глубокий синий */
-  --navy-2: #0F69A8;
-  --gold: #19BCE5;             /* голубой акцент логотипа */
-  --gold-50: #E9F9FD;
-  --gold-ink: #075B78;
-  --primary-50: #EFF8FF;
-  --primary-100: #D9F1FB;
-  --primary-ink: #07549A;
-  --secondary: #16A3A8;
-  --secondary-50: #E9FBFC;
-  --secondary-100: #D1F5F6;
-  --secondary-ink: #0F6D72;
-  --accent: #F59E0B;
-  --accent-50: #FFFBEB;
-  --accent-100: #FEF3C7;
-  --accent-ink: #92400E;
-  --muted: #F3F4F6;
-  --muted-2: #E5E7EB;
-  --dark: #111827;
-  --dark-2: #1F2937;
-  --on-dark-2: #9CA3AF;
-  --error: #DC2626;
-  --error-50: #FEF2F2;
-  --error-ink: #B91C1C;
-  --overlay: rgba(17, 24, 39, 0.7);
-
-  /* Типографика */
-  --font: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --fs-h1: clamp(32px, 2.8vw + 10px, 52px);
-  --fs-h2: clamp(30px, 2.6vw + 16px, 48px);
-  --fs-h3: clamp(20px, .8vw + 16px, 24px);
-  --fs-body: 17px;
-  --fs-sm: 15px;
-  --fs-xs: 13px;
-
-  /* Форма и ритм */
-  --r-md: 6px;
-  --r-lg: 8px;
-  --sp-section: clamp(64px, 7vw, 96px);
-  --container: 1280px;
-  --header-h: 94px;
-  --t: 200ms;
-}
-
-*, *::before, *::after { box-sizing: border-box; }
-[hidden] { display: none !important; }
-html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--white); color: var(--fg); font: 400 var(--fs-body)/1.65 var(--font); -webkit-font-smoothing: antialiased; }
-body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: #0D5FA8; }
-h1, h2, h3, h4 { margin: 0; line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance; }
-h1 { font-size: var(--fs-h1); font-weight: 800; }
-h2 { font-size: var(--fs-h2); font-weight: 800; }
-h3 { font-size: var(--fs-h3); font-weight: 700; line-height: 1.2; }
-p { margin: 0; }
-ul, ol { margin: 0; padding: 0; }
-a { color: var(--primary-ink); }
-img { max-width: 100%; height: auto; display: block; }
-svg { flex: none; }
-:focus-visible { outline: 2px solid var(--primary-strong); outline-offset: 2px; }
-.on-color :focus-visible { outline-color: var(--white); }
-section[id] { scroll-margin-top: var(--header-h); }
-.skip { position: absolute; left: 16px; top: -80px; z-index: 100; background: var(--dark); color: var(--white); padding: 12px 18px; border-radius: var(--r-md); font-weight: 600; text-decoration: none; }
-.skip:focus { top: calc(env(safe-area-inset-top, 0px) + 12px); }
-
-.container { position: relative; max-width: calc(var(--container) + 80px); margin: 0 auto; padding-left: max(clamp(16px, 4vw, 40px), env(safe-area-inset-left, 0px)); padding-right: max(clamp(16px, 4vw, 40px), env(safe-area-inset-right, 0px)); }
-.section { position: relative; overflow: hidden; padding-block: var(--sp-section); }
-.bg-white { background: var(--white); }
-.bg-muted { background: var(--muted); }
-.bg-dark { background: var(--dark); color: var(--white); }
-.bg-dark h2, .bg-dark h3 { color: var(--white); }
-.bg-gold { background: var(--gold-50); color: var(--fg); }
-.bg-navy { background: var(--navy); color: var(--white); }
-.bg-navy h2 { color: var(--white); }
-
-/* Декоративные фигуры: плоские, полупрозрачные, за контентом */
-.shape { position: absolute; pointer-events: none; z-index: 0; }
-.shape--circle { border-radius: 50%; }
-.section > .container { z-index: 1; }
-
-/* SectionHeading */
-.sh { display: grid; gap: 16px; margin-bottom: clamp(40px, 5vw, 64px); max-width: 780px; }
-.label { display: inline-flex; align-items: center; gap: 10px; font-size: var(--fs-xs); font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--primary-ink); }
-.label::before { content: none; }
-.bg-dark .label { color: #93C5FD; }
-.bg-gold .label { color: var(--fg); }
-.bg-navy .label { color: var(--gold); }
-.lead { font-size: clamp(17px, .4vw + 15px, 19px); color: var(--fg-2); max-width: 60ch; }
-.bg-dark .lead { color: var(--on-dark-2); }
-.bg-gold .lead { color: var(--fg); }
-.bg-navy .lead { color: var(--primary-100); }
-
-/* Заглушки */
-.tbd { display: inline-block; padding: 0 8px; border-radius: var(--r-md); background: var(--accent-50); color: var(--accent-ink); font-size: .88em; font-weight: 600; line-height: 1.7; }
-
-/* Button */
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 56px; padding: 14px 28px; border-radius: var(--r-md); border: 0; font: 600 16px/1.2 var(--font); text-decoration: none; cursor: pointer; transition: transform var(--t), background-color var(--t), color var(--t), box-shadow var(--t); }
-.btn:hover { transform: translateY(-2px); }
-.btn:active { transform: scale(1); }
-.btn--primary { background: var(--primary-strong); color: var(--white); }
-.btn--primary:hover { background: var(--primary-hover); }
-.btn--secondary { background: var(--muted); color: var(--fg); }
-.btn--secondary:hover { background: var(--muted-2); }
-.btn--inverse { background: var(--white); color: var(--primary-ink); }
-.btn--inverse:hover { background: var(--primary-50); }
-.btn--outline { background: transparent; color: var(--primary-strong); box-shadow: inset 0 0 0 2px currentColor; }
-.btn--outline:hover { background: var(--primary-strong); color: var(--white); box-shadow: inset 0 0 0 2px var(--primary-strong); }
-.btn--outline-light { background: transparent; color: var(--white); box-shadow: inset 0 0 0 2px var(--white); }
-.btn--outline-light:hover { background: var(--white); color: var(--primary-ink); box-shadow: inset 0 0 0 2px var(--white); }
-.btn--sm { min-height: 48px; padding: 10px 20px; font-size: 15px; }
-.btn[disabled] { opacity: .65; cursor: progress; transform: none; }
-.btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
-
-/* Icon circle */
-.icon-circle { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: var(--white); transition: transform var(--t); }
-.icon-circle--lg { width: 64px; height: 64px; }
-
-/* Tag (единственный pill-элемент системы) */
-.tag { display: inline-flex; align-items: center; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.5; }
-.tag--law { background: var(--primary-50); color: var(--primary-ink); }
-.tag--acc { background: var(--secondary-50); color: var(--secondary-ink); }
-.tag--tbd { background: var(--accent-100); color: var(--accent-ink); }
-.tag--onblue { background: var(--navy-2); color: var(--white); }
-.tag--gold { background: var(--gold); color: var(--fg); }
-.tag--white { background: var(--white); }
-
-/* Header + Mobile navigation */
-.header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; background: linear-gradient(120deg, #0B3B78 0%, #0D5FA8 52%, #1478B8 100%); box-shadow: 0 6px 18px rgba(7, 54, 108, .22); }
-.header__row { display: flex; align-items: center; gap: 24px; min-height: var(--header-h); }
-.brand { display: flex; align-items: center; gap: 12px; color: var(--white); text-decoration: none; margin-right: auto; min-width: 0; }
-.brand__logo { flex: none; width: 224px; height: 86px; object-fit: contain; object-position: left center; }
-.brand__text { display: grid; line-height: 1.2; min-width: 0; }
-.brand__text b { font-size: 16px; font-weight: 800; letter-spacing: -0.01em; }
-.brand__text small { font-size: 15px; font-weight: 700; color: var(--white); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-@media (max-width: 639px) { .brand__logo { width: 180px; height: 78px; } .header__row { gap: 10px; } .brand__text { display: none; } }
-.nav { display: none; }
-.nav ul { list-style: none; display: flex; gap: 4px; }
-.nav a { display: block; padding: 10px 14px; border-radius: var(--r-md); color: var(--white); text-decoration: none; font-size: var(--fs-sm); font-weight: 600; transition: background var(--t), color var(--t); }
-.nav a:hover { background: rgba(255,255,255,.12); color: var(--white); }
-.header__cta { display: none; }
-.header__cta.btn--primary { min-width: 176px; background: var(--gold); color: var(--navy); white-space: nowrap; box-shadow: 0 6px 16px rgba(25,188,229,.22); }
-.header__cta.btn--primary:hover { background: var(--white); color: var(--primary-strong); }
-.burger { display: grid; place-items: center; width: 48px; height: 48px; border-radius: var(--r-md); border: 1px solid rgba(255,255,255,.22); background: rgba(255,255,255,.10); color: var(--white); cursor: pointer; transition: background var(--t); }
-.burger:hover { background: rgba(255,255,255,.18); }
-.mnav { background: linear-gradient(120deg, #0B3B78 0%, #0D5FA8 52%, #1478B8 100%); padding-bottom: 16px; }
-.mnav ul { list-style: none; display: grid; gap: 4px; }
-.mnav a { display: block; padding: 14px 16px; border-radius: var(--r-md); background: rgba(255,255,255,.10); color: var(--white); text-decoration: none; font-weight: 700; font-size: 18px; }
-.mnav .btn { width: 100%; margin-top: 12px; }
-@media (min-width: 960px) { .nav { display: block; } .header__cta { display: inline-flex; align-items: center; justify-content: center; text-align: center; } .burger, .mnav { display: none !important; } }
-
+:root{--navy:#0b2744;--blue:#0d5c9c;--cyan:#21a9c4;--ink:#182d43;--muted:#66778b;--paper:#f5f7f8;--line:#d9e1e7;--sand:#e9dfd0;--white:#fff;--max:1200px;--ease:cubic-bezier(.2,.7,.2,1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:78px}body{margin:0;color:var(--ink);background:#fff;font:400 16px/1.6 Manrope,Arial,sans-serif}body.nav-open{overflow:hidden}a{color:inherit}img{display:block;max-width:100%}button,input,select,textarea{font:inherit}:focus-visible{outline:3px solid #e7a73d;outline-offset:3px}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.08;letter-spacing:-.035em}h1{font-size:clamp(42px,6.2vw,82px);font-weight:700}h2{font-size:clamp(34px,4vw,58px);font-weight:700}h3{font-size:22px;font-weight:700}.wrap{width:min(var(--max),calc(100% - 56px));margin:auto}.section{padding:118px 0}.kicker{color:var(--blue);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.kicker.light{color:#83d8e4}.lead{color:var(--muted);font-size:18px}.dark{color:var(--white);background:var(--navy)}.dark .lead{color:#bdcedd}.btn{display:inline-flex;min-height:50px;align-items:center;justify-content:center;padding:13px 21px;border:1px solid transparent;border-radius:3px;font-size:14px;font-weight:800;text-decoration:none;cursor:pointer;transition:transform .2s var(--ease),background .2s,color .2s}.btn:hover{transform:translateY(-2px)}.btn-primary{color:#fff;background:var(--blue)}.btn-primary:hover{background:var(--navy)}.btn-light{color:var(--navy);background:#fff}.btn-outline{color:var(--blue);border-color:var(--blue);background:transparent}.btn-outline:hover{color:#fff;background:var(--blue)}.btn-outline-light{color:#fff;border-color:#a8cfda;background:transparent}.btn-outline-light:hover{color:var(--navy);background:#fff}.actions{display:flex;flex-wrap:wrap;gap:12px}
+/* Header */
+.utility{color:#bdd1e1;background:var(--navy);font-size:12px}.utility-in{display:flex;min-height:32px;align-items:center;justify-content:space-between}.utility a{text-decoration:none}.utility-links{display:flex;gap:22px}.header{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(255,255,255,.96);backdrop-filter:blur(12px)}.header-in{display:flex;min-height:78px;align-items:center;gap:30px}.brand{display:flex;align-items:center;gap:10px;min-width:210px;color:var(--navy);text-decoration:none}.brand img{width:138px;height:57px;object-fit:contain;object-position:left center}.brand span{max-width:160px;font-size:10px;font-weight:800;line-height:1.2}.nav{margin-left:auto}.nav ul,.mobile ul{display:flex;gap:24px;margin:0;padding:0;list-style:none}.nav a,.mobile a{font-size:13px;font-weight:700;text-decoration:none}.nav a:hover{color:var(--blue)}.header-phone{font-size:13px;font-weight:800;white-space:nowrap}.menu{display:none;width:44px;height:44px;border:1px solid var(--line);background:#fff;cursor:pointer}.mobile{display:none}
 /* Hero */
-.hero { position: relative; overflow: hidden; background: linear-gradient(135deg, #0B3B78 0%, #0D5FA8 58%, #1478B8 100%); color: var(--white); padding-block: clamp(48px, 6vw, 84px); }
-.hero h1 { color: var(--white); }
-.hero__grid { position: relative; z-index: 1; display: grid; gap: 40px; align-items: center; }
-.hero__copy { display: grid; gap: 22px; min-width: 0; animation: hero-rise-in 650ms ease-out both; }
-.hero__label { font-size: var(--fs-xs); font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); }
-.hero__para { position: absolute; z-index: 0; right: 30%; bottom: -0.32em; font-size: clamp(320px, 38vw, 560px); font-weight: 800; line-height: 1; color: rgba(255, 255, 255, .05); pointer-events: none; user-select: none; }
-.hero__sub { font-size: clamp(16px, .35vw + 15px, 18px); line-height: 1.55; color: var(--primary-50); max-width: 52ch; }
-.hero__tags { display: flex; flex-wrap: wrap; gap: 8px; }
-@media (min-width: 1024px) { .hero__grid { grid-template-columns: repeat(12, 1fr); } .hero__copy { grid-column: 1 / span 7; } .hero__art { grid-column: 9 / span 4; } }
-.hero__art { position: relative; min-width: 0; animation: hero-art-in 800ms 100ms ease-out both; }
-.hero__art .deco-sq { position: absolute; width: 62%; aspect-ratio: 1; right: -8%; top: -10%; background: var(--gold); border-radius: var(--r-lg); transform: rotate(12deg); }
-.hero__art .deco-ci { position: absolute; width: 36%; aspect-ratio: 1; left: -10%; bottom: -8%; background: var(--primary); border-radius: 50%; }
-
-/* Документ */
-.doc { position: relative; margin: 0; background: var(--white); color: var(--fg); border: 1px solid rgba(255,255,255,.7); border-radius: var(--r-lg); padding: clamp(22px, 3vw, 32px); display: grid; gap: 14px; box-shadow: 0 24px 60px rgba(3,35,78,.28); }
-.doc__top { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-.doc__title { font-size: 15px; font-weight: 800; text-align: center; letter-spacing: .04em; padding-top: 6px; }
-.doc__city { display: flex; justify-content: space-between; font-size: var(--fs-xs); color: var(--fg-2); }
-.clause { font-size: 14px; line-height: 1.6; }
-.clause mark { background: var(--gold-50); border-bottom: 2px solid var(--gold); color: var(--fg); padding: 0 3px; border-radius: 3px; }
-.note { display: grid; gap: 2px; font-size: var(--fs-xs); padding: 12px 14px; border-radius: var(--r-md); background: var(--primary-50); color: var(--fg); }
-.note b { color: var(--primary-ink); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
-.doc__caption { font-size: 12px; color: var(--fg-2); }
-
-/* Card (color block) */
-.card { border-radius: var(--r-lg); padding: clamp(24px, 3vw, 32px); transition: transform var(--t), box-shadow var(--t), background-color var(--t); }
-.card--hover:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(17,24,39,.08); }
-.card--hover:hover .icon-circle { transform: scale(1.1); }
-
-/* DirectionCard */
-.grid-2 { display: grid; gap: 24px; }
-@media (min-width: 760px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 1024px) { .grid-2--law { grid-template-columns: 7fr 5fr; } }
-.direction { position: relative; display: grid; gap: 20px; align-content: start; cursor: pointer; }
-.direction--law { background: var(--primary-50); }
-.direction--law:hover { background: var(--primary-100); }
-.direction--law .icon-circle { color: var(--primary-strong); }
-.direction--acc { background: var(--secondary-50); }
-.direction--acc:hover { background: var(--secondary-100); }
-.direction--acc .icon-circle { color: var(--secondary-ink); }
-.direction__head { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
-.direction h3 { font-size: clamp(26px, 1.6vw + 18px, 34px); font-weight: 800; }
-.direction p { color: var(--fg-2); }
-.direction ul { list-style: none; display: grid; gap: 8px; }
-.direction li { padding: 12px 16px; background: var(--white); border-radius: var(--r-md); font-weight: 600; font-size: var(--fs-sm); }
-.direction__foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-top: auto; }
-.direction__foot small { font-size: var(--fs-xs); color: var(--fg-2); }
-.go { display: inline-flex; align-items: center; gap: 8px; background: none; border: 0; padding: 0; font: 700 16px/1.3 var(--font); cursor: pointer; text-decoration: none; }
-.direction--law .go { color: var(--primary-ink); }
-.direction--acc .go { color: var(--secondary-ink); }
-.go svg { transition: transform var(--t); }
-.direction:hover .go svg { transform: translateX(4px); }
-.stretch::after { content: ""; position: absolute; inset: 0; border-radius: var(--r-lg); }
-
-/* Catalog + CourseCard */
-.filters { display: inline-flex; flex-wrap: wrap; gap: 6px; padding: 6px; background: var(--white); border-radius: var(--r-lg); margin-bottom: 40px; }
-.filter { min-height: 44px; padding: 8px 18px; border: 0; border-radius: var(--r-md); background: transparent; color: var(--fg); font: 600 15px/1 var(--font); cursor: pointer; transition: all var(--t); }
-.filter:hover { background: var(--muted); }
-.filter[aria-pressed="true"] { background: var(--primary-strong); color: var(--white); }
-.filter .count { margin-left: 6px; opacity: .7; }
-.courses { display: grid; gap: 24px; list-style: none; }
-@media (min-width: 640px) { .courses { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1024px) { .courses { grid-template-columns: repeat(3, 1fr); } }
-.course { display: flex; flex-direction: column; gap: 14px; height: 100%; background: var(--white); min-width: 0; }
-.course__tags { display: flex; flex-wrap: wrap; gap: 8px; }
-.course h3 { font-size: 21px; }
-.course__level { font-size: var(--fs-xs); font-weight: 600; color: var(--fg-2); }
-.course__result { font-size: var(--fs-sm); color: var(--fg-2); }
-.meta { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; margin: 4px 0 0; padding: 16px; background: var(--muted); border-radius: var(--r-md); font-size: var(--fs-xs); }
-.meta dt { color: var(--fg-2); font-weight: 500; }
-.meta dd { margin: 0; font-weight: 600; min-width: 0; }
-.course__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 6px; }
-.course__actions .btn { flex: 1 1 auto; }
-
-/* Dialog */
-dialog.course-dialog { width: min(640px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); padding: 0; border: 0; border-radius: var(--r-lg); background: var(--white); color: var(--fg); }
-dialog.course-dialog::backdrop { background: var(--overlay); }
-.dlg { display: grid; gap: 20px; padding: clamp(24px, 4vw, 40px); }
-.dlg__head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
-.dlg__title { display: grid; gap: 10px; }
-.icon-btn { flex: none; width: 48px; height: 48px; border-radius: var(--r-md); border: 0; background: var(--muted); color: var(--fg); cursor: pointer; display: grid; place-items: center; transition: background var(--t); }
-.icon-btn:hover { background: var(--muted-2); }
-.dlg h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--fg-2); margin-bottom: 8px; }
-.dlg ol { padding-left: 22px; display: grid; gap: 6px; font-size: var(--fs-sm); }
-
-/* Results */
-.results { display: grid; gap: 24px; }
-@media (min-width: 900px) { .results { grid-template-columns: 1fr 1fr; } }
-.results__col { display: grid; gap: 20px; align-content: start; }
-.results__col--law { background: var(--primary-50); }
-.results__col--acc { background: var(--secondary-50); }
-.checks { list-style: none; display: grid; gap: 10px; }
-.checks li { display: grid; grid-template-columns: 32px 1fr; gap: 14px; align-items: start; padding: 14px 16px; background: var(--white); border-radius: var(--r-md); font-weight: 500; font-size: var(--fs-sm); }
-.check-dot { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; color: var(--white); }
-.results__col--law .check-dot { background: var(--primary-strong); }
-.results__col--acc .check-dot { background: var(--secondary-ink); }
-.fineprint { margin-top: 24px; font-size: var(--fs-sm); color: var(--fg-2); }
-
-/* InstructorCard */
-.people { display: grid; gap: 24px; list-style: none; }
-@media (min-width: 640px) { .people { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1024px) { .people { grid-template-columns: repeat(3, 1fr); } }
-.person { display: grid; gap: 14px; align-content: start; background: var(--white); }
-.person__photo { aspect-ratio: 4 / 3; width: 100%; max-width: 100%; border-radius: var(--r-md); background: var(--primary-50); color: var(--primary-strong); display: grid; place-items: center; overflow: hidden; }
-.person__photo img { width: 100%; height: 100%; object-fit: cover; }
-.person__role { font-size: var(--fs-sm); font-weight: 600; color: var(--primary-ink); }
-.person dl { display: grid; gap: 10px; margin: 0; font-size: var(--fs-sm); }
-.person dt { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--fg-2); }
-.person dd { margin: 2px 0 0; }
-
-/* How it works (dark) */
-.steps { list-style: none; display: grid; gap: 24px; }
-@media (min-width: 640px) { .steps { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1024px) { .steps { grid-template-columns: repeat(4, 1fr); } }
-.step { display: grid; gap: 12px; align-content: start; background: var(--dark-2); }
-.step__n { font-size: clamp(56px, 4vw + 24px, 80px); font-weight: 800; line-height: .9; letter-spacing: -0.04em; }
-.step:nth-child(1) .step__n { color: #93C5FD; }
-.step:nth-child(2) .step__n { color: var(--gold); }
-.step:nth-child(3) .step__n { color: #A7F3D0; }
-.step:nth-child(4) .step__n { color: var(--white); }
-.step p { color: var(--on-dark-2); font-size: var(--fs-sm); }
-.facts { display: grid; gap: 12px; margin: 48px 0 0; }
-@media (min-width: 640px) { .facts { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1024px) { .facts { grid-template-columns: repeat(3, 1fr); } }
-.facts > div { padding: 20px 24px; border-radius: var(--r-md); background: var(--dark-2); display: grid; gap: 6px; align-content: start; }
-.facts dt { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #93C5FD; }
-.facts dd { margin: 0; font-size: var(--fs-sm); color: var(--white); }
-
-/* BenefitCard (emerald) */
-.benefits { display: grid; gap: 24px; list-style: none; }
-@media (min-width: 760px) { .benefits { grid-template-columns: repeat(2, 1fr); } }
-.benefit { display: grid; gap: 14px; align-content: start; background: var(--white); }
-.benefit .icon-circle { width: 44px; height: 44px; border-radius: var(--r-md); background: var(--navy); color: var(--gold); }
-.benefit p { color: var(--fg-2); }
-@media (max-width: 959px) {
-  .mobile-cta { position: fixed; left: 16px; right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 45; display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 12px 20px; border-radius: var(--r-md); background: var(--gold); color: var(--navy); box-shadow: 0 10px 28px rgba(7,54,108,.24); font-weight: 800; text-decoration: none; }
-  body { padding-bottom: 88px; }
+.hero{color:var(--white);background:var(--navy)}.hero-in{display:grid;grid-template-columns:1fr .86fr;gap:90px;align-items:center;min-height:660px;padding:92px 0}.hero-copy{display:grid;gap:25px}.hero-copy .kicker{color:#82d4df}.hero-copy .lead{max-width:650px;color:#c9d9e7;font-size:19px}.hero-note{display:flex;flex-wrap:wrap;gap:12px 24px;color:#d7e6f0;font-size:13px}.hero-note span:before{content:'•';margin-right:7px;color:#70d1dd}.hero-visual{position:relative}.hero-visual .blank{height:430px;background:#fff}.blank{display:grid;place-items:center;border:1px solid var(--line);background:#fff;color:#a5b2bd}.blank span{padding:8px 12px;background:#f6f8fa;color:#8797a5;font-size:11px;font-weight:800;text-align:center}.doc-label{position:absolute;right:-28px;bottom:26px;width:245px;padding:21px;color:var(--ink);background:#fff;border-left:4px solid var(--cyan);box-shadow:0 20px 48px rgba(0,0,0,.22)}.doc-label strong{display:block;margin-bottom:4px;font-size:19px}.doc-label small{color:var(--muted);font-size:12px}
+/* Proof bar */
+.proofbar{border-bottom:1px solid var(--line);background:#fff}.proofbar-in{display:grid;grid-template-columns:repeat(4,1fr);gap:0}.proofbar-item{display:grid;gap:3px;padding:25px 22px;border-right:1px solid var(--line)}.proofbar-item:first-child{border-left:1px solid var(--line)}.proofbar-item strong{font-size:14px}.proofbar-item span{color:var(--muted);font-size:12px}
+/* Partners */
+.partners{padding:46px 0;background:var(--paper)}.partners-in{display:grid;grid-template-columns:260px 1fr;gap:46px;align-items:center}.partners-copy{display:grid;gap:10px}.partners-copy p{color:var(--muted);font-size:13px}.logo-row{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.logo{display:grid;min-height:66px;place-items:center;border:1px solid var(--line);background:#fff;color:#a2afba;font-size:10px;font-weight:800;text-align:center}
+/* Intro */
+.intro{display:grid;grid-template-columns:.72fr 1.28fr;gap:110px;align-items:start}.intro-aside{position:sticky;top:110px}.intro-aside h2{margin-top:17px}.intro-main{display:grid;grid-template-columns:1fr 1fr;gap:0 42px}.intro-main p{grid-column:1/-1;max-width:700px;margin-bottom:38px;color:var(--muted);font-size:18px}.intro-point{display:grid;gap:11px;padding:22px 0;border-top:1px solid var(--line)}.intro-point strong{font-size:16px}.intro-point span{color:var(--muted);font-size:14px}
+/* Services */
+.services-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:54px}.services-head h2{max-width:640px;margin-top:15px}.services-head p{max-width:310px;color:#b9ccdc;font-size:14px}.service-list{border-top:1px solid rgba(255,255,255,.28)}.service-row{display:grid;grid-template-columns:80px 1fr 1fr auto;gap:28px;align-items:center;padding:27px 0;border-bottom:1px solid rgba(255,255,255,.2)}.service-row .num{color:#6fd1dc;font-size:14px;font-weight:800}.service-row h3{font-size:25px}.service-row p{color:#bed0de;font-size:14px}.service-row a{color:#fff;font-size:13px;font-weight:800;text-decoration:none;white-space:nowrap}.service-row a:after{content:'  ↗';color:#6fd1dc}
+/* Formats / credentials */
+.formats{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:start}.formats h2{max-width:560px;margin-top:17px}.format-list{border-top:1px solid var(--line)}.format-item{display:grid;grid-template-columns:42px 1fr;gap:20px;padding:22px 0;border-bottom:1px solid var(--line)}.format-item b{color:var(--blue);font-size:13px}.format-item p{margin-top:6px;color:var(--muted);font-size:14px}.credential{display:grid;grid-template-columns:180px 1fr;gap:26px;padding:26px;background:var(--paper)}.credential .blank{min-height:190px}.credential-copy{display:grid;align-content:center;gap:12px}.credential-copy p{color:var(--muted);font-size:14px}.credential-copy a{color:var(--blue);font-size:13px;font-weight:800;text-decoration:none}.credential-note{display:grid;gap:10px;margin-top:12px;padding:17px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+/* Cases / stats */
+.case-layout{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}.case-main,.case-side{border:1px solid var(--line);background:#fff}.case-main .blank{min-height:310px}.case-content{display:grid;gap:13px;padding:26px}.case-content p,.case-side p{color:var(--muted);font-size:14px}.case-content a{color:var(--blue);font-size:13px;font-weight:800;text-decoration:none}.case-side{display:grid;align-content:space-between}.case-side .case-content{padding:27px}.case-side .case-content+ .case-content{border-top:1px solid var(--line)}.case-tag{color:var(--blue);font-size:10px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.metrics{display:grid;grid-template-columns:repeat(4,1fr);margin-top:58px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.metric{display:grid;gap:6px;padding:25px 20px;border-right:1px solid var(--line)}.metric:last-child{border-right:0}.metric strong{font:700 33px/1 'DM Serif Display',serif;color:var(--blue)}.metric span{color:var(--muted);font-size:12px}
+/* Process / testimonials */
+.process{display:grid;grid-template-columns:.8fr 1.2fr;gap:95px}.process h2{margin-top:17px}.timeline{border-top:1px solid rgba(255,255,255,.25)}.timeline-item{display:grid;grid-template-columns:50px 1fr;gap:23px;padding:22px 0;border-bottom:1px solid rgba(255,255,255,.2)}.timeline-item b{color:#73d3df;font-size:13px}.timeline-item p{margin-top:6px;color:#bdd0de;font-size:14px}.quote-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:90px;align-items:center}.quote-mark{color:var(--cyan);font:100px/.7 'DM Serif Display',serif}.quote{font:34px/1.25 'DM Serif Display',serif}.quote-author{margin-top:20px;color:#bdd0de;font-size:13px}
+/* Team / FAQ */
+.team-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:80px}.team-layout h2{margin-top:17px}.team-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.person{display:grid;gap:14px}.person .blank{min-height:250px}.person small{color:var(--blue);font-size:12px;font-weight:800}.person p{color:var(--muted);font-size:13px}.faq-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:90px}.faq-layout h2{margin-top:17px}.faq-list{border-top:1px solid var(--line)}.faq{border-bottom:1px solid var(--line)}.faq button{display:flex;width:100%;align-items:center;justify-content:space-between;gap:20px;padding:21px 0;border:0;background:none;color:var(--ink);font-weight:800;text-align:left;cursor:pointer}.faq button span:last-child{color:var(--blue);font-size:24px;font-weight:400}.faq-answer{padding:0 50px 21px 0;color:var(--muted);font-size:14px}
+/* Contact / footer */
+.contact{color:#fff;background:var(--blue)}.contact-layout{display:grid;grid-template-columns:.86fr 1.14fr;gap:75px}.contact h2{margin-top:17px}.contact .lead{margin-top:20px;color:#d6e8f0}.contact-links{display:grid;gap:14px;margin-top:42px}.contact-link{display:grid;gap:2px;text-decoration:none}.contact-link span{color:#a8dce4;font-size:11px;font-weight:800;text-transform:uppercase}.contact-link strong{font-size:18px}.form{display:grid;gap:16px;padding:32px;color:var(--ink);background:#fff}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}.form label{display:grid;gap:7px;font-size:12px;font-weight:800}.form input,.form select,.form textarea{width:100%;border:1px solid var(--line);border-radius:2px;padding:13px 14px;background:#f8fafb}.form textarea{min-height:105px;resize:vertical}.form small{color:var(--muted);font-size:11px}.status{min-height:20px;color:#21734b;font-size:13px;font-weight:700}.footer{color:#b9cada;background:#071a2e}.footer-in{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:35px;padding:55px 0 42px}.footer h3{margin-bottom:13px;color:#fff;font-size:14px}.footer p,.footer li,.footer a{font-size:12px}.footer p{max-width:260px}.footer ul{display:grid;gap:8px;margin:0;padding:0;list-style:none}.footer a{text-decoration:none}.footer a:hover{color:#fff}.footer-bottom{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-top:1px solid rgba(255,255,255,.14);font-size:11px;color:#8199ae}.mobile-cta{display:none}
+@media(max-width:940px){.nav,.header-phone,.header-in>.btn{display:none}.menu{display:block;margin-left:auto}.mobile.nav-open{display:block}.hero-in,.intro,.formats,.process,.quote-layout,.team-layout,.faq-layout,.contact-layout{grid-template-columns:1fr;gap:50px}.hero-in{min-height:auto;padding:80px 0 110px}.intro-aside{position:static}.partners-in{grid-template-columns:1fr;gap:25px}.service-row{grid-template-columns:55px 1fr auto}.service-row p{grid-column:2}.service-row a{grid-column:3;grid-row:1/3}.case-layout{grid-template-columns:1fr}.team-layout,.faq-layout{gap:35px}.footer-in{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.wrap{width:min(var(--max),calc(100% - 34px))}.section{padding:78px 0}.utility-in{justify-content:center}.utility-links{display:none}.brand{min-width:0}.brand img{width:126px}.brand span{display:none}.hero-in{padding:62px 0 90px}.hero-copy .lead{font-size:16px}.hero-visual .blank{height:280px}.doc-label{position:relative;right:auto;bottom:auto;width:250px;margin:-28px 0 0 auto}.proofbar-in{grid-template-columns:1fr 1fr}.proofbar-item{border-bottom:1px solid var(--line)}.proofbar-item:nth-child(odd){border-left:1px solid var(--line)}.logo-row{grid-template-columns:repeat(2,1fr)}.intro-main{grid-template-columns:1fr}.services-head{display:grid;margin-bottom:35px}.service-row{grid-template-columns:34px 1fr}.service-row h3{font-size:20px}.service-row p,.service-row a{grid-column:2}.service-row a{margin-top:5px}.credential{grid-template-columns:1fr}.credential .blank{min-height:160px}.metrics{grid-template-columns:1fr 1fr;margin-top:40px}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}.case-main .blank{min-height:220px}.timeline-item{grid-template-columns:35px 1fr}.team-grid{grid-template-columns:1fr}.person .blank{min-height:210px}.form-row{grid-template-columns:1fr}.form{padding:22px}.footer-in{grid-template-columns:1fr;gap:28px;padding:42px 0 30px}.footer-bottom{display:grid;gap:8px}.mobile-cta{position:fixed;right:16px;bottom:16px;left:16px;z-index:10;display:flex;min-height:52px;align-items:center;justify-content:center;color:var(--navy);background:#f0b34b;font-weight:800;text-decoration:none;box-shadow:0 12px 30px rgba(0,0,0,.2)}body{padding-bottom:82px}}.motion-ready .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s var(--ease),transform .65s var(--ease);transition-delay:var(--delay,0ms)}.motion-ready .reveal.is-visible{opacity:1;transform:none}.hero-copy,.hero-visual{animation:hero-in .8s var(--ease) both}.hero-visual{animation-delay:.12s}.logo,.service-row,.format-item,.metric,.person{transition:background .25s,transform .25s,border-color .25s}.logo:hover{transform:translateY(-3px);border-color:var(--cyan);color:var(--blue)}.service-row:hover{padding-left:10px;background:rgba(255,255,255,.035)}.format-item:hover{transform:translateX(5px)}.metric:hover{background:#eef5f8}.person:hover{transform:translateY(-4px);border-color:#aecbd7}.faq-answer{overflow:hidden;transition:opacity .25s ease}.faq button span:last-child{transition:transform .25s var(--ease)}@keyframes hero-in{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+main{display:flex;flex-direction:column}main>.hero{order:1}main>.proofbar{order:2}main>.partners{order:3}main>#cases{order:4}main>#services{order:5}main>section:has(.formats){order:6}main>#team{order:7}main>section:has(#about){order:8}main>section:has(.quote-layout){order:9}main>#contacts{order:10}main>section:has(.credential),main>#process,main>#faq{display:none}.blank span{display:none}.logo{font-size:0}
+.motion-ready .reveal{opacity:1;transform:none;animation:reveal-in .6s var(--ease) both;animation-delay:var(--delay,0ms)}@keyframes reveal-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.motion-ready .reveal{animation:none!important;opacity:1;transform:none!important}}
+.header{background:var(--navy);border-bottom-color:rgba(255,255,255,.16)}.brand{color:#fff}.nav a,.header-phone{color:#fff}.nav a:hover{color:#8bd8e3}.header .btn-primary{color:var(--navy);background:#f0b34b}.header .btn-primary:hover{color:var(--navy);background:#ffd27b}.menu{border-color:rgba(255,255,255,.3);color:#fff;background:rgba(255,255,255,.08)}.mobile{border-top-color:rgba(255,255,255,.16);background:var(--navy)}.mobile a{color:#fff}.mobile .btn-primary{color:var(--navy);background:#f0b34b}
+/* Editorial polish: restrained law-firm references, warmer paper, less card-soup. */
+body{background:#fbfaf8}
+h1,h2{font-family:'PT Serif',Georgia,serif;font-weight:700;letter-spacing:-.02em}
+h1{line-height:1.02}
+h2{line-height:1.08}
+.hero h1{max-width:760px}
+.hero-visual:before{content:'';position:absolute;inset:18px -18px -18px 18px;border:1px solid rgba(255,255,255,.3);pointer-events:none}
+.hero-visual .blank{position:relative;z-index:1}
+.doc-label{z-index:2}
+.section:not(.dark):not(.contact){background:#fbfaf8}
+.partners{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.logo{min-height:58px}
+.case-main,.case-side{border-color:#cdd8df}
+.case-main .blank,.person .blank{background:#fff}
+.case-main .blank:after,.person .blank:after{content:'';width:38px;height:1px;background:var(--cyan);position:absolute;left:26px;bottom:24px}
+.case-main .blank,.person .blank{position:relative}
+.format-item h3,.case-content h3,.person h3{letter-spacing:-.02em}
+.format-item:hover{background:rgba(13,92,156,.035)}
+.person{padding-bottom:16px;border-bottom:1px solid var(--line)}
+.person:hover{transform:none;border-color:var(--line)}
+.quote{max-width:720px}
+@media(max-width:620px){h1{font-size:clamp(40px,12vw,58px)}h2{font-size:clamp(32px,9vw,46px)}.hero-visual:before{inset:12px -10px -12px 10px}.case-main .blank:after,.person .blank:after{left:18px;bottom:18px}}
+/* Premier Audit editorial system */
+:root{--cream:#f5f2ec;--ink:#0e1a2b;--accent:#1f4fd8;--muted:#8a8f98;--rule:#d8d5cf;--max:1240px}
+body{color:var(--ink);background:var(--cream);font-family:Inter,Arial,sans-serif}
+h1,h2{font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:-.035em}
+h1{font-size:clamp(54px,7.25vw,104px);line-height:.98}
+h2{font-size:clamp(42px,5vw,76px);line-height:1.02}
+h3{letter-spacing:-.02em}
+.wrap{width:min(var(--max),calc(100% - 80px))}
+.section{padding:145px 0;background:var(--cream)}
+.kicker{color:var(--accent);letter-spacing:.13em}
+.lead,.partners-copy p,.intro-point span,.format-item p,.case-content p,.case-side p,.person p{color:var(--muted)}
+.utility{color:#b9c3d4;background:var(--ink);font-size:11px}
+.header{border-bottom:1px solid rgba(255,255,255,.18);background:var(--ink);backdrop-filter:none}
+.brand,.nav a,.header-phone{color:#fff}.nav a:hover{color:#aebfff}.header .btn-primary{background:var(--accent);color:#fff}.header .btn-primary:hover{background:#173da8}.menu{border-color:rgba(255,255,255,.28);background:transparent;color:#fff}
+.brand{min-width:270px;gap:12px}.brand img{width:38px;height:50px}.brand span{max-width:none;font-size:12px;letter-spacing:.08em;line-height:1.1}.brand span small{display:block;margin-top:5px;color:#aeb8c7;font-size:8px;letter-spacing:.02em}
+.mobile{border-top-color:rgba(255,255,255,.18);background:var(--ink)}.mobile a{color:#fff}
+.hero{color:var(--ink);background:var(--cream);border-bottom:1px solid var(--rule)}
+.hero-in{grid-template-columns:minmax(0,1fr) 340px;gap:100px;min-height:675px;padding:112px 0 98px}
+.hero-copy{gap:31px}.hero-copy .kicker{color:var(--accent)}.hero-copy .lead{max-width:720px;color:var(--ink);font-size:20px;line-height:1.45}
+.actions{align-items:center;gap:28px}.btn{border-radius:0;min-height:54px;padding:15px 22px;font-size:13px}.btn-primary{background:var(--accent)}.btn-primary:hover{background:var(--ink)}.text-link{color:var(--ink);font-size:14px;font-weight:600;text-decoration:none}.text-link span{margin-left:7px;color:var(--accent);font-size:18px;transition:transform .2s ease}.text-link:hover span{display:inline-block;transform:translate(3px,-3px)}
+.hero-stats{align-self:stretch;display:grid;grid-template-rows:repeat(3,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}.hero-stats div{display:flex;flex-direction:column;justify-content:center;border-bottom:1px solid var(--ink)}.hero-stats div:last-child{border-bottom:0}.hero-stats strong{font:600 clamp(68px,7vw,100px)/.92 'Playfair Display',Georgia,serif;letter-spacing:-.06em}.hero-stats strong span{color:var(--accent)}.hero-stats span{color:var(--muted);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.marquee{overflow:hidden;border-top:1px solid var(--rule);padding:20px 0;background:var(--cream);white-space:nowrap}.marquee-track{display:flex;width:max-content;gap:88px;color:var(--muted);font-size:11px;font-weight:600;letter-spacing:.18em;animation:marquee 28s linear infinite}.marquee-track span:before{content:'—';margin-right:88px;color:var(--rule)}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.proofbar{border-bottom:1px solid var(--rule);background:var(--cream)}.proofbar-item{border-color:var(--rule)}.proofbar-item:first-child{border-left-color:var(--rule)}
+.partners{padding:54px 0;background:var(--cream);border-color:var(--rule)}.logo{min-height:48px;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:transparent}
+.dark{color:var(--ink);background:var(--cream)}.dark .lead{color:var(--muted)}.services-head p{color:var(--muted)}.service-list,.timeline{border-color:var(--ink)}.service-row,.timeline-item{border-color:var(--rule)}.service-row .num,.timeline-item b{color:var(--accent)}.service-row p,.timeline-item p{color:var(--muted)}.service-row a{color:var(--accent)}.service-row a:after{color:var(--accent)}
+.case-main,.case-side{border:0;border-top:1px solid var(--ink);background:transparent}.case-side .case-content+ .case-content{border-top:1px solid var(--rule)}.case-content{padding-left:0;padding-right:0}.case-side .case-content{padding-left:0;padding-right:0}.case-main .blank{border:0;border-bottom:1px solid var(--rule);background:#ebe8e1}.metrics{border-color:var(--ink)}.metric{border-color:var(--rule)}.metric strong{font-family:'Playfair Display',Georgia,serif;color:var(--accent)}
+.format-list,.faq-list{border-color:var(--ink)}.format-item,.faq{border-color:var(--rule)}.format-item b,.case-tag,.person small{color:var(--accent)}
+.quote-layout{border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);padding-top:65px;padding-bottom:65px}.quote-mark{color:var(--accent)}.quote{font-family:'Playfair Display',Georgia,serif}.quote-author{color:var(--muted)}
+.contact{color:var(--ink);background:var(--cream);border-top:1px solid var(--ink)}.contact .lead{color:var(--muted)}.contact-link span{color:var(--muted)}.contact-link strong{color:var(--ink)}.form{border:1px solid var(--ink);padding:30px;background:#fff}.form input,.form select,.form textarea{border-color:var(--rule);border-radius:0;background:#fff}.footer{background:var(--ink)}
+.credential{background:transparent;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding-left:0;padding-right:0}.head{display:grid;gap:18px}.head .lead{max-width:660px}
+@media(prefers-reduced-motion:reduce){.marquee-track{animation:none}}
+@media(max-width:940px){.wrap{width:min(var(--max),calc(100% - 48px))}.hero-in{grid-template-columns:1fr;gap:70px;min-height:auto}.hero-stats{min-height:300px}.hero-stats div{padding:20px 0}.hero-stats strong{font-size:70px}.section{padding:100px 0}}
+@media(max-width:620px){.wrap{width:calc(100% - 34px)}.section{padding:84px 0}.hero-in{padding:72px 0 70px;gap:58px}.hero-copy{gap:24px}.hero-copy .lead{font-size:17px}.actions{align-items:flex-start;flex-direction:column;gap:18px}.hero-stats{min-height:270px}.hero-stats strong{font-size:62px}.marquee-track{gap:54px}.marquee-track span:before{margin-right:54px}.proofbar-item{border-color:var(--rule)}.service-row{grid-template-columns:34px 1fr}.service-row p,.service-row a{grid-column:2}.contact-layout{gap:45px}}
+.situations{padding-top:128px;padding-bottom:128px}.situations-head{display:grid;grid-template-columns:.72fr 1.28fr;gap:100px;align-items:end;margin-bottom:58px}.situations-head h2{max-width:760px}.situation-list{border-top:1px solid var(--ink)}.situation-row{display:grid;grid-template-columns:82px 1fr auto;gap:30px;align-items:center;padding:24px 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;transition:padding .25s ease,background .25s ease}.situation-number{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.08em}.situation-row strong{font:500 clamp(24px,2.6vw,38px)/1.12 'Playfair Display',Georgia,serif;letter-spacing:-.025em}.situation-link{color:var(--muted);font-size:12px;font-weight:600;white-space:nowrap}.situation-link b{margin-left:6px;color:var(--accent);font-size:17px;font-weight:400}.situation-row:hover{padding-left:12px;background:rgba(31,79,216,.035)}.situation-row:hover .situation-link{color:var(--ink)}
+main>.situations{order:4}main>#cases{order:5}main>#services{order:6}main>#process{display:block;order:7}main>section:has(#prices){order:8}main>#team{order:9}main>section:has(#about){order:10}main>section:has(.quote-layout){order:11}main>#contacts{order:12}
+@media(max-width:940px){.situations-head{grid-template-columns:1fr;gap:22px}.situations{padding-top:100px;padding-bottom:100px}}
+@media(max-width:620px){.situations{padding-top:84px;padding-bottom:84px}.situations-head{margin-bottom:38px}.situation-row{grid-template-columns:42px 1fr;gap:12px;padding:19px 0}.situation-row strong{font-size:24px}.situation-link{grid-column:2}.situation-link b{font-size:16px}}
+.service-row{grid-template-columns:minmax(0,1fr) 220px 250px;gap:36px;padding:29px 0;align-items:center}.service-info{display:grid;gap:8px}.service-info h3{font:500 clamp(24px,2.2vw,34px)/1.05 'Playfair Display',Georgia,serif;letter-spacing:-.025em}.service-info p{max-width:520px;margin:0;color:var(--muted);font-size:13px}.service-meta{display:grid;gap:5px}.service-meta strong{color:var(--accent);font-size:16px;font-weight:600}.service-meta span{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.service-expert{display:flex;align-items:center;gap:13px;justify-self:end;min-width:220px}.expert-photo{display:grid;width:54px;height:54px;flex:none;place-items:center;border:1px solid var(--ink);border-radius:50%;color:#fff;background:#151515;font:600 16px/1 Inter,Arial,sans-serif;filter:grayscale(1)}.service-expert span:last-child{display:grid;gap:4px}.service-expert b{font-size:13px;font-weight:600}.service-expert small{color:var(--muted);font-size:11px}.service-row:hover{padding-left:14px;background:rgba(31,79,216,.035)}
+.process{display:block;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule)}.process-head{display:grid;grid-template-columns:.72fr 1.28fr;gap:100px;align-items:end;margin-bottom:58px}.process-head h2{max-width:680px}.process-line{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:34px}.process-line:before{content:'';position:absolute;top:14px;right:12.5%;left:12.5%;height:1px;background:var(--ink)}.process-step{position:relative;z-index:1;display:grid;gap:28px}.process-step b{display:grid;width:29px;height:29px;place-items:center;border:1px solid var(--accent);border-radius:50%;color:var(--accent);background:var(--cream);font-size:11px;font-weight:700}.process-step h3{max-width:220px;font:500 22px/1.15 'Playfair Display',Georgia,serif;letter-spacing:-.02em}
+.case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:58px}.case-card{display:grid;align-content:start;min-height:560px;padding:22px 22px 28px;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);transition:background .25s ease,transform .25s ease}.case-card:hover{background:rgba(31,79,216,.035);transform:translateY(-4px)}.case-top{display:flex;justify-content:space-between;gap:14px;margin-bottom:46px;color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.case-top span:first-child{color:var(--accent)}.case-card h3{font:500 clamp(28px,2.3vw,38px)/1.08 'Playfair Display',Georgia,serif;letter-spacing:-.025em}.case-detail{display:grid;grid-template-columns:74px 1fr;gap:14px;margin-top:auto;padding-top:20px;border-top:1px solid var(--rule)}.case-detail+.case-detail{margin-top:18px}.case-detail span{color:var(--accent);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.case-detail p{color:var(--muted);font-size:12px;line-height:1.5}
+.reviews{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule)}.reviews-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:62px}.reviews-head h2{max-width:640px;margin-top:18px}.review-controls{display:flex;gap:8px}.review-arrow{display:grid;width:48px;height:48px;place-items:center;border:1px solid var(--ink);border-radius:50%;color:var(--ink);background:transparent;font-size:20px;cursor:pointer;transition:color .2s ease,background .2s ease}.review-arrow:hover{color:#fff;background:var(--ink)}.review-viewport{overflow:hidden}.review-track{display:flex;transition:transform .45s cubic-bezier(.2,.7,.2,1)}.review-slide{display:grid;flex:0 0 100%;min-height:310px;align-content:space-between;padding:0 9% 8px}.review-slide blockquote{max-width:920px;margin:0;font:500 clamp(32px,4.5vw,68px)/1.08 'Playfair Display',Georgia,serif;letter-spacing:-.035em}.review-meta{display:grid;gap:5px;padding-top:25px;border-top:1px solid var(--rule)}.review-meta strong{font-size:14px}.review-meta span{color:var(--muted);font-size:12px}.review-meta a{width:max-content;margin-top:8px;color:var(--accent);font-size:12px;font-weight:600;text-decoration:none}.review-meta a:hover{text-decoration:underline}
+main>.reviews{order:11}main>section:has(.quote-layout){display:none}main>#contacts{order:12}
+@media(max-width:940px){.service-row{grid-template-columns:minmax(0,1fr) 220px;gap:22px}.service-info{grid-column:1/-1}.service-expert{grid-column:2;grid-row:2}}
+@media(max-width:620px){.service-row{grid-template-columns:1fr auto;gap:16px;padding:24px 0}.service-row:hover{padding-left:6px}.service-info{grid-column:1/-1}.service-info h3{font-size:26px}.service-meta{grid-column:1}.service-expert{grid-column:2;grid-row:2;min-width:0;gap:8px}.expert-photo{width:42px;height:42px;font-size:13px}.service-expert b{font-size:11px}.service-expert small{font-size:9px}.process{padding-top:84px;padding-bottom:84px}.process-head{grid-template-columns:1fr;gap:22px;margin-bottom:42px}.process-line{display:grid;grid-template-columns:1fr;gap:0;padding-left:2px}.process-line:before{top:14px;bottom:14px;left:14px;right:auto;width:1px;height:auto}.process-step{grid-template-columns:29px 1fr;gap:20px;min-height:104px}.process-step h3{max-width:none;padding-top:4px;font-size:25px}.process-step b{background:var(--cream)}.case-grid{grid-template-columns:1fr;gap:30px;margin-top:40px}.case-card{min-height:0;padding:20px 0 26px}.case-top{margin-bottom:34px}.case-card h3{font-size:31px}.case-detail{margin-top:38px}.reviews-head{align-items:start;display:grid;gap:26px;margin-bottom:42px}.review-controls{justify-content:space-between}.review-arrow{width:44px;height:44px}.review-slide{min-height:380px;padding:0 0 4px}.review-slide blockquote{font-size:37px}.review-meta{padding-top:22px}}
+.reviews{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule)}.reviews-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:62px}.reviews-head h2{max-width:640px;margin-top:18px}.review-controls{display:flex;gap:8px}.review-arrow{display:grid;width:48px;height:48px;place-items:center;border:1px solid var(--ink);border-radius:50%;color:var(--ink);background:transparent;font-size:20px;cursor:pointer;transition:color .2s ease,background .2s ease}.review-arrow:hover{color:#fff;background:var(--ink)}.review-viewport{overflow:hidden}.review-track{display:flex;transition:transform .45s cubic-bezier(.2,.7,.2,1)}.review-slide{display:grid;flex:0 0 100%;min-height:310px;align-content:space-between;padding:0 9% 8px}.review-slide blockquote{max-width:920px;margin:0;font:500 clamp(32px,4.5vw,68px)/1.08 'Playfair Display',Georgia,serif;letter-spacing:-.035em}.review-meta{display:grid;gap:5px;padding-top:25px;border-top:1px solid var(--rule)}.review-meta strong{font-size:14px}.review-meta span{color:var(--muted);font-size:12px}.review-meta a{width:max-content;margin-top:8px;color:var(--accent);font-size:12px;font-weight:600;text-decoration:none}.review-meta a:hover{text-decoration:underline}
+.contact{display:block;min-height:650px;color:#fff;background:var(--ink);border-top:0}.contact-in{display:grid;align-content:center;min-height:520px}.contact .kicker{color:#9db3ff}.contact h2{max-width:980px;margin-top:22px;font:500 clamp(52px,7vw,104px)/.98 'Playfair Display',Georgia,serif;letter-spacing:-.04em}.contact h2 em{color:#aebfff;font-style:normal}.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:54px}.contact-button{display:inline-flex;min-height:68px;align-items:center;justify-content:space-between;gap:45px;padding:20px 25px;border:1px solid #fff;font-size:15px;font-weight:600;text-decoration:none;transition:background .2s ease,color .2s ease,transform .2s ease}.contact-button span{font-size:21px}.contact-button:hover{transform:translateY(-3px)}.contact-button-light{color:var(--ink);background:#fff}.contact-button-light:hover{color:#fff;background:var(--accent)}.contact-button-outline{color:#fff;border-color:#8995aa}.contact-button-outline:hover{color:var(--ink);background:#fff}.contact-bottom{display:flex;flex-wrap:wrap;gap:14px 34px;margin-top:100px;padding-top:18px;border-top:1px solid rgba(255,255,255,.28);color:#aeb8c7;font-size:12px}.contact-bottom a{color:#fff;text-decoration:none}.contact-bottom span:last-child{margin-left:auto;color:#fff}
+main>.reviews{order:11}main>section:has(.quote-layout){display:none}main>#contacts{order:12}
+@media(max-width:620px){.reviews-head{align-items:start;display:grid;gap:26px;margin-bottom:42px}.review-controls{justify-content:space-between}.review-arrow{width:44px;height:44px}.review-slide{min-height:380px;padding:0 0 4px}.review-slide blockquote{font-size:37px}.contact{min-height:0}.contact-in{min-height:0}.contact h2{font-size:51px}.contact-actions{display:grid;margin-top:38px}.contact-button{width:100%;min-height:62px}.contact-bottom{display:grid;gap:10px;margin-top:70px}.contact-bottom span:last-child{margin-left:0;margin-top:20px}}
+/* Hierarchy pass: keep the editorial voice, reduce repeated shouting. */
+body{color:#0e1a2b}.lead,.intro-point span,.service-info p,.case-detail p,.person p,.partners-copy p{color:#65707d}
+section:not(.hero):not(.contact) h2{font-size:clamp(34px,3.6vw,54px);line-height:1.05}
+section:not(.hero):not(.contact){padding-top:108px;padding-bottom:108px}
+.hero h1,.contact h2{font-size:clamp(54px,7.25vw,104px)}
+.kicker{font-size:12px;color:#1747c2}.partners{padding-top:38px!important;padding-bottom:38px!important}.logo{font-size:10px;color:#8a8f98;letter-spacing:.12em}
+.proofbar-item span,.partners-copy p{font-size:12px}.situations-head,.process-head{margin-bottom:42px}.case-grid{margin-top:42px}.case-card{min-height:500px}.service-row{padding-top:22px;padding-bottom:22px}.service-meta strong{font-size:17px}.service-info p{font-size:13px}.team-layout h2,.intro-aside h2{max-width:520px}.person .blank{min-height:190px}.person{gap:10px}.person p{font-size:12px}
+main>#prices{display:none}
+@media(max-width:620px){section:not(.hero):not(.contact){padding-top:76px;padding-bottom:76px}section:not(.hero):not(.contact) h2{font-size:clamp(31px,8.5vw,43px)}.hero h1,.contact h2{font-size:clamp(47px,12vw,58px)}.case-card{min-height:0}.partners{padding-top:30px!important;padding-bottom:30px!important}.logo{min-height:42px}}
+/* Reference alignment: compact sans-serif, blue hero, soft rounded surfaces. */
+:root{--ink:#0e1a2b;--accent:#155fc0;--cyan:#20b8d2;--cream:#fff;--paper:#eff8fc;--rule:#d8e5ec;--muted:#687786}
+body{font-family:Manrope,Inter,Arial,sans-serif;background:#fff;color:var(--ink)}
+h1,h2,h3,.service-info h3,.case-card h3,.process-step h3,.review-slide blockquote{font-family:Manrope,Inter,Arial,sans-serif;font-weight:800;letter-spacing:-.045em}
+h1{font-size:clamp(42px,5.2vw,72px);line-height:1.01}.section h2{font-size:clamp(30px,3.4vw,48px);line-height:1.04}
+.wrap{width:min(1180px,calc(100% - 48px))}.section{padding:92px 0;background:#fff}
+.header{background:#0f5da6;border-bottom:1px solid rgba(255,255,255,.18)}.brand,.nav a,.header-phone{color:#fff}.nav a:hover{color:#b8f0f5}.header .btn-primary{background:#23bad2;color:#0e1a2b;border-radius:8px}.header .btn-primary:hover{background:#8de6ef}.menu{border-color:rgba(255,255,255,.3);border-radius:8px}.mobile{background:#0f5da6}.mobile a{color:#fff}
+.hero{position:relative;overflow:hidden;background:#0f5da6;border-bottom:0}.hero:after{content:'';position:absolute;right:-100px;bottom:-180px;width:420px;height:420px;border:90px solid rgba(32,184,210,.18);border-radius:50%;pointer-events:none}.hero-in{position:relative;z-index:1;grid-template-columns:1.12fr .88fr;gap:64px;min-height:570px;padding:82px 0 70px}.hero-copy{gap:22px}.hero-copy .kicker{color:#a9f0f4}.hero-copy .lead{max-width:630px;color:#d9edf4;font-size:17px}.hero h1{max-width:710px;color:#fff}.actions{gap:18px}.btn{border-radius:8px;min-height:48px}.hero .btn-primary{color:#0e1a2b;background:#23bad2}.hero .btn-primary:hover{background:#fff}.text-link{color:#fff}.text-link span{color:#9af0f3}
+.hero-stats{align-self:center;min-height:385px;padding:20px 28px;border:0;border-radius:16px;background:#f5fbfd;box-shadow:0 18px 40px rgba(5,32,69,.18)}.hero-stats div{border-color:#cfe3ea}.hero-stats strong{font:800 clamp(54px,6vw,82px)/.92 Manrope,Inter,Arial,sans-serif;letter-spacing:-.08em;color:#0e5da6}.hero-stats strong span{color:var(--cyan)}.hero-stats span{color:#687786;font-size:10px;font-weight:700}.marquee{position:relative;z-index:1;border-top:1px solid rgba(255,255,255,.2);background:rgba(7,36,72,.16);padding:17px 0}.marquee-track{color:#bce5eb;font-size:10px}
+.proofbar{background:#fff;border-color:var(--rule)}.proofbar-item{border-color:var(--rule)}.proofbar-item strong{font-size:13px}.partners{background:#fff;border:0;padding:58px 0}.partners-in{grid-template-columns:250px 1fr;gap:38px}.logo-row{gap:10px}.logo{min-height:54px;border:1px solid #d9e7ee;border-radius:8px;background:#f5fbfd;color:#8a9aa5;font-size:9px}
+.situations{background:#fff}.situations-head,.process-head{grid-template-columns:.8fr 1.2fr;gap:70px}.situation-list{border:0;border-radius:12px;background:#f1f8fb;padding:0 22px}.situation-row{grid-template-columns:58px 1fr auto;padding:20px 0;border-color:#d7e6ed}.situation-row strong{font-family:Manrope,Inter,Arial,sans-serif;font-size:clamp(17px,1.7vw,24px);font-weight:700;letter-spacing:-.03em}.situation-row:hover{padding-left:8px;background:#e4f4f8}
+.case-grid{gap:16px}.case-card{min-height:465px;padding:20px;border:1px solid #dceaf0;border-radius:12px;background:#f3f9fc;box-shadow:0 8px 22px rgba(20,67,94,.06)}.case-card:hover{transform:translateY(-3px);background:#eaf7fa}.case-card h3{font-size:clamp(21px,2vw,29px);line-height:1.12}.case-top{margin-bottom:34px}.case-detail{grid-template-columns:62px 1fr}.case-detail p{font-size:11px}
+#services{background:#f5f9fb}.services-head{margin-bottom:38px}.services-head h2{max-width:580px}.service-list{border:0}.service-row{border:1px solid #d9e7ee;border-radius:10px;margin-top:10px;padding:19px 22px;background:#fff;box-shadow:0 5px 16px rgba(20,67,94,.04)}.service-row:hover{padding-left:28px;background:#eef9fb}.service-info h3{font-size:clamp(19px,2vw,27px)}.service-info p{font-size:12px}.service-meta strong{font-size:14px}.expert-photo{width:48px;height:48px;border:0;background:#172433}
+.process{background:#0e1a2b;color:#fff;border:0}.process h2{color:#fff}.process-step h3{font-size:17px;letter-spacing:-.025em}.process-line:before{background:#71859b}.process-step b{border-color:#22bdd3;color:#22bdd3;background:#0e1a2b}
+#team{background:#eff8fc}.person{padding:0 0 14px;border:0}.person .blank{min-height:185px;border:1px solid #d6e7ee;border-radius:10px;background:#f9fdfe}.person h3{font-size:18px}.person small{color:#155fc0}
+#about{background:#fff}.intro-point{border-color:#dce8ee}.intro-point strong{font-size:14px}
+.reviews{background:#fff;border-color:#dce8ee}.review-slide blockquote{font-size:clamp(28px,3.4vw,52px);line-height:1.12}.review-arrow{border-radius:8px;color:#155fc0;border-color:#155fc0}.review-arrow:hover{background:#155fc0}
+.contact{background:#0e1a2b}.contact h2{font-family:Manrope,Inter,Arial,sans-serif;font-size:clamp(44px,6vw,80px);font-weight:800}.contact h2 em{color:#8de6ef}.contact-button{border-radius:8px}.contact-button-outline{border-color:#6e8299}.footer{background:#071528}
+@media(max-width:940px){.hero-in{grid-template-columns:1fr;gap:42px}.hero-stats{min-height:260px}.partners-in{grid-template-columns:1fr;gap:25px}.situations-head,.process-head{grid-template-columns:1fr;gap:22px}.service-row{grid-template-columns:minmax(0,1fr) 220px}.case-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.wrap{width:calc(100% - 34px)}.section{padding:72px 0}.hero-in{padding:64px 0 58px}.hero h1{font-size:clamp(40px,10.8vw,56px)}.hero-stats{min-height:250px;padding:12px 22px}.partners{padding:40px 0}.logo-row{grid-template-columns:repeat(2,1fr)}.situation-list{padding:0 15px}.situation-row{grid-template-columns:38px 1fr;gap:10px}.situation-link{grid-column:2}.case-grid{grid-template-columns:1fr}.case-card{min-height:0}.service-row{grid-template-columns:1fr auto;padding:17px 16px}.service-info{grid-column:1/-1}.service-meta{grid-column:1}.service-expert{grid-column:2;grid-row:2}.process-step h3{font-size:17px}.contact h2{font-size:clamp(42px,11vw,56px)}}
+section.section.process{background:#0e1a2b!important;color:#fff!important}section.section.process h2{color:#fff!important}section.section.process .kicker{color:#9deef2!important}section.section.process .process-step h3{color:#fff!important}section.section.process .process-line:before{background:#617489!important}
+/* Readability pass */
+body{font-size:16px;line-height:1.58}
+p,.lead,.service-info p,.case-detail p,.person p,.partners-copy p,.intro-point span{color:#4f5f6e!important}
+.lead{font-size:16px;line-height:1.55}.kicker{font-size:11px;font-weight:800;color:#1552b1;letter-spacing:.12em}.proofbar-item span,.partners-copy p{font-size:13px}.proofbar-item strong{font-size:14px}.logo{color:#687987;font-size:10px;font-weight:700}
+.service-info p{font-size:14px;line-height:1.45}.service-meta strong{font-size:16px}.service-meta span{font-size:12px;color:#667786}.case-detail p{font-size:13px;line-height:1.48}.case-top{font-size:10px}.person p{font-size:13px}.review-meta span,.review-meta a{font-size:13px}
+.process-step h3{font-size:18px}.section.process .process-step h3{color:#fff!important}.section.process .kicker{color:#9deef2!important}
+.motion-ready .reveal{opacity:1!important;transform:none!important;animation:none!important}
+@media(max-width:620px){body{font-size:16px}.lead{font-size:16px}.service-info p,.case-detail p,.person p{font-size:13px}.situation-row strong{font-size:18px}.process-step h3{font-size:17px}}
+/* Final polish: fewer pauses, stronger first screen, no unfinished certificate placeholder. */
+.hero h1{max-width:850px;font-size:clamp(42px,5vw,68px)}
+.hero-copy .lead{color:#d9edf4!important}
+.hero-in{gap:52px}
+.partners-copy p{max-width:290px}
+.credentials-section{display:none}
+.reviews-note{max-width:520px;margin-top:16px;color:#657789;font-size:14px;line-height:1.5}
+.contact-bottom a{color:inherit;text-decoration:none}
+@media(max-width:620px){
+  .brand span{display:block;max-width:130px;font-size:9px;color:#fff;letter-spacing:.04em}
+  .brand span small{display:none}
+  .brand img{width:92px;height:42px}
+  .hero h1{max-width:350px;font-size:clamp(40px,10.5vw,54px)}
+  .hero-in{gap:36px}
+  .reviews-note{font-size:13px}
 }
-@media (min-width: 960px) { .mobile-cta { display: none; } }
-
-/* Proof */
-.proof { display: grid; gap: 24px; align-items: start; }
-@media (min-width: 1024px) { .proof { grid-template-columns: repeat(12, 1fr); } .task { grid-column: span 8; } .aside-card { grid-column: span 4; } }
-.task { display: grid; gap: 20px; background: var(--muted); min-width: 0; }
-.task__label { display: flex; flex-wrap: wrap; gap: 8px; }
-.task h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--fg-2); margin-bottom: 8px; }
-.task ol, .task ul { padding-left: 22px; display: grid; gap: 6px; font-size: var(--fs-sm); }
-.task__situation { padding: 16px 18px; background: var(--white); border-radius: var(--r-md); font-size: var(--fs-sm); font-weight: 500; }
-.aside-card { display: grid; gap: 14px; justify-items: start; background: var(--gold-50); }
-.aside-card .icon-circle { background: var(--gold); color: var(--fg); }
-.aside-card p { color: var(--fg-2); font-size: var(--fs-sm); }
-
-/* Signup (amber) */
-.signup { display: grid; gap: 24px; align-items: start; }
-@media (min-width: 1024px) { .signup { grid-template-columns: repeat(12, 1fr); } .summary { grid-column: span 5; } .form-card { grid-column: span 7; } }
-.summary { background: var(--dark); color: var(--white); display: grid; gap: 18px; }
-.summary h3 { color: var(--white); font-size: clamp(22px, 1vw + 18px, 28px); font-weight: 800; }
-.summary__label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); }
-.summary p { color: var(--on-dark-2); }
-.summary dl { display: grid; gap: 8px; margin: 0; }
-.summary dl > div { display: grid; grid-template-columns: minmax(110px, 40%) 1fr; gap: 12px; padding: 12px 14px; border-radius: var(--r-md); background: var(--dark-2); font-size: var(--fs-sm); }
-.summary dt { color: var(--on-dark-2); }
-.summary dd { margin: 0; font-weight: 600; min-width: 0; }
-.form-card { background: var(--white); color: var(--fg); min-width: 0; }
-.form-card :focus-visible { outline-color: var(--primary-strong); }
-
-/* FormField + ContactForm */
-.form { display: grid; gap: 20px; }
-.field { display: grid; gap: 8px; }
-.field label { font-size: var(--fs-sm); font-weight: 600; }
-.field input, .field select { width: 100%; min-height: 56px; padding: 14px 16px; border: 2px solid transparent; border-radius: var(--r-md); background: var(--muted); color: var(--fg); font: 500 16px/1.3 var(--font); transition: background var(--t), border-color var(--t); }
-.field input::placeholder { color: #6B7280; }
-.field input:focus, .field select:focus { outline: none; background: var(--white); border-color: var(--primary-strong); }
-.field [aria-invalid="true"] { border-color: var(--error); background: var(--error-50); }
-.hint { font-size: var(--fs-xs); color: var(--fg-2); }
-.err { font-size: var(--fs-xs); font-weight: 600; color: var(--error-ink); }
-.consent { display: grid; grid-template-columns: 24px 1fr; gap: 12px; font-size: var(--fs-sm); align-items: start; }
-.consent input { width: 22px; height: 22px; margin: 1px 0 0; accent-color: var(--primary-strong); }
-.form .btn--primary { width: 100%; min-height: 60px; font-size: 17px; }
-.alt-contact { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 14px 16px; border-radius: var(--r-md); background: var(--muted); font-size: var(--fs-sm); color: var(--fg-2); }
-
-/* StatusMessage */
-.status { display: grid; gap: 4px; padding: 16px 18px; border-radius: var(--r-md); font-size: var(--fs-sm); }
-.status b { font-weight: 700; }
-.status--warn { background: var(--accent-100); color: var(--accent-ink); }
-.status--error { background: var(--error-50); color: var(--error-ink); }
-.status--success { background: var(--secondary-50); color: var(--secondary-ink); }
-
-/* FAQAccordion */
-.faq { display: grid; gap: 40px; }
-@media (min-width: 1024px) { .faq { grid-template-columns: repeat(12, 1fr); } .faq .sh { grid-column: span 5; } .faq__list { grid-column: 7 / span 6; } }
-.faq__list { border-top: 2px solid var(--muted-2); }
-.faq__item { border-bottom: 2px solid var(--muted-2); }
-.faq__btn { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 22px 0; background: none; border: 0; color: var(--fg); font: 700 18px/1.35 var(--font); text-align: left; cursor: pointer; }
-.faq__btn:hover { color: var(--primary-ink); }
-.faq__icon { flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--primary-50); color: var(--primary-strong); display: grid; place-items: center; transition: all var(--t); }
-.faq__btn[aria-expanded="true"] .faq__icon { background: var(--primary-strong); color: var(--white); transform: rotate(45deg); }
-.faq__panel { padding: 0 56px 24px 0; color: var(--fg-2); }
-
-/* Footer */
-.footer { background: var(--dark); color: var(--white); padding-block: 64px 40px; font-size: var(--fs-sm); }
-.footer a { color: #93C5FD; }
-.footer__grid { display: grid; gap: 40px; }
-@media (min-width: 900px) { .footer__grid { grid-template-columns: repeat(12, 1fr); } .footer__grid > :nth-child(1) { grid-column: span 5; } .footer__grid > :nth-child(2) { grid-column: span 3; } .footer__grid > :nth-child(3) { grid-column: span 4; } }
-.footer h2 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); margin-bottom: 16px; }
-.footer dl, .footer ul { display: grid; gap: 10px; margin: 0; list-style: none; }
-.footer dl > div { display: grid; grid-template-columns: 90px 1fr; gap: 12px; }
-.footer dt { color: var(--on-dark-2); }
-.footer dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
-.footer__bottom { margin-top: 48px; padding: 20px 24px; border-radius: var(--r-md); background: var(--dark-2); color: var(--on-dark-2); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
-
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after { transition: none !important; animation: none !important; }
-  .btn:hover, .card--hover:hover, .card--hover:hover .icon-circle, .direction:hover .go svg { transform: none; }
+/* Responsive grid: desktop, laptop, tablet and small phones. */
+@media(min-width:1440px){
+  :root{--max:1360px}
+  .hero-in{min-height:610px;padding-top:92px;padding-bottom:78px}
+  .hero h1{font-size:clamp(58px,5vw,74px)}
 }
-
-@keyframes hero-rise-in {
-  from { opacity: 0; transform: translateY(16px); }
-  to { opacity: 1; transform: translateY(0); }
+@media(min-width:1024px) and (max-width:1439px){
+  .wrap{width:min(var(--max),calc(100% - 64px))}
+  .header-in{gap:20px}
+  .brand{min-width:230px}
+  .nav ul{gap:18px}
+  .header-phone{font-size:12px}
+  .hero-in{grid-template-columns:minmax(0,1.12fr) minmax(300px,.88fr);gap:42px}
+  .hero h1{font-size:clamp(48px,5.5vw,66px)}
+  .partners-in{grid-template-columns:220px 1fr;gap:26px}
+  .case-grid{gap:12px}
+  .case-card{padding:18px}
+  .service-row{grid-template-columns:minmax(0,1fr) 180px 200px;gap:22px;padding-left:18px;padding-right:18px}
+  .service-expert{min-width:0}
+  .process-line{gap:24px}
 }
-@keyframes hero-art-in {
-  from { opacity: 0; transform: translateY(18px) scale(.98); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
+@media(min-width:768px) and (max-width:1023px){
+  .wrap{width:calc(100% - 48px)}
+  .header-in{min-height:68px}
+  .brand img{width:105px;height:44px}
+  .brand span{font-size:9px}
+  .hero-in{grid-template-columns:1fr;gap:34px;padding:60px 0 64px}
+  .hero h1{max-width:720px;font-size:clamp(44px,6vw,62px)}
+  .hero-copy .lead{max-width:650px}
+  .hero-stats{min-height:250px}
+  .partners{padding:46px 0}
+  .partners-in{grid-template-columns:1fr;gap:22px}
+  .partners-copy p{max-width:520px}
+  .section{padding:82px 0}
+  .situations-head,.process-head{gap:28px}
+  .case-grid{grid-template-columns:repeat(2,1fr);gap:14px}
+  .case-card{min-height:420px;padding:18px}
+  .service-row{grid-template-columns:minmax(0,1fr) 190px;gap:18px;padding:22px 18px}
+  .service-info{grid-column:1/-1}
+  .service-expert{grid-column:2;grid-row:2;min-width:0}
+  .process-line{gap:18px}
+  .process-step h3{font-size:17px}
+  .team-layout{gap:30px}
+  .review-slide{padding-left:5%;padding-right:5%}
+  .contact h2{font-size:clamp(48px,7vw,72px)}
 }
+@media(min-width:376px) and (max-width:767px){
+  .hero h1{max-width:360px}
+  .case-card h3{font-size:29px}
+  .review-slide blockquote{font-size:32px}
+}
+@media(max-width:375px){
+  .wrap{width:calc(100% - 28px)}
+  .header-in{min-height:62px}
+  .brand{gap:6px}
+  .brand img{width:82px;height:38px}
+  .brand span{font-size:8px;max-width:112px}
+  .menu{width:40px;height:40px}
+  .hero-in{padding-top:52px;padding-bottom:52px}
+  .hero h1{max-width:330px;font-size:40px}
+  .hero-copy .lead{font-size:15px}
+  .hero-stats{min-height:230px;padding:10px 18px}
+  .hero-stats strong{font-size:56px}
+  .section{padding:62px 0}
+  .situation-list{padding:0 12px}
+  .situation-row{padding:17px 0}
+  .case-card h3{font-size:27px}
+  .service-row{padding:15px 13px}
+  .service-info h3{font-size:22px}
+  .expert-photo{width:38px;height:38px}
+  .service-expert b{font-size:10px}
+  .service-expert small{font-size:8px}
+  .process-step h3{font-size:16px}
+  .review-slide{min-height:360px}
+  .review-slide blockquote{font-size:29px}
+  .contact h2{font-size:40px}
+  .contact-button{min-height:58px;padding:17px 18px;font-size:13px}
+}
+.nav ul{gap:clamp(12px,1.7vw,24px)}
+.nav a{font-size:12px;white-space:nowrap}
+.nav{min-width:0}
+.nav ul{align-items:center;flex-wrap:nowrap}
+.courses{order:7}
+.courses-head{grid-template-columns:1fr .7fr;gap:16px 48px}
+.course-list{max-width:100%}
+@media(max-width:940px){.courses-head{grid-template-columns:1fr;gap:14px}.courses-head .kicker{grid-column:auto}}
+.courses{background:#fff}
+.courses-head{display:grid;grid-template-columns:.8fr 1.2fr;gap:18px 60px;align-items:end;margin-bottom:38px}
+.courses-head .kicker{grid-column:1/-1}
+.courses-head h2{max-width:680px}
+.courses-head p,.courses-note{color:#5d6d7c;font-size:14px;line-height:1.55}
+.course-list{border-top:1px solid #d9e1e7}
+.course-list article{display:grid;grid-template-columns:48px minmax(0,1fr) 180px;gap:24px;align-items:center;padding:22px 0;border-bottom:1px solid #d9e1e7}
+.course-list article>span{color:#1f4fd8;font-weight:700;font-size:13px}
+.course-list h3{font-size:21px}
+.course-list p{margin-top:5px;color:#5d6d7c;font-size:14px}
+.course-list a{color:#1f4fd8;font-size:13px;font-weight:700;text-decoration:none}
+.courses-note{margin-top:16px;font-size:12px}
+@media(max-width:767px){.courses-head{grid-template-columns:1fr;gap:14px}.course-list article{grid-template-columns:32px minmax(0,1fr);gap:12px}.course-list article>a{grid-column:2}.course-list h3{font-size:19px}}
 </style>
-
-<a class="skip" href="#main">Перейти к содержанию</a>
-
-<!-- Header -->
-<header class="header">
-  <div class="container header__row">
-    <a class="brand" href="#top" aria-label="На главный экран">
-      <img class="brand__logo" src="design.png" alt="Премьер Аудит">
-      <span class="brand__text"><small>Курсы права и бухгалтерии</small></span>
-    </a>
-    <nav class="nav" aria-label="Основная навигация">
-      <ul>
-        <li><a href="#directions">Направления</a></li>
-        <li><a href="#teachers">Преподаватели</a></li>
-        <li><a href="#process">Обучение</a></li>
-        <li><a href="#faq">Вопросы</a></li>
-        <li><a href="#contacts">Контакты</a></li>
-      </ul>
-    </nav>
-    <a class="btn btn--primary btn--sm header__cta" href="#signup" data-track="cta_click" data-place="header">Записаться на курс</a>
-    <button class="burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Открыть меню">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
-    </button>
-  </div>
-  <nav class="mnav" id="mnav" aria-label="Мобильная навигация" hidden>
-    <div class="container">
-      <ul>
-        <li><a href="#directions">Направления</a></li>
-        <li><a href="#teachers">Преподаватели</a></li>
-        <li><a href="#process">Как проходит обучение</a></li>
-        <li><a href="#faq">Вопросы</a></li>
-        <li><a href="#contacts">Контакты</a></li>
-      </ul>
-      <a class="btn btn--primary" href="#signup" data-track="cta_click" data-place="mobile_menu">Записаться на курс</a>
-    </div>
-  </nav>
-</header>
-
-<a class="mobile-cta" href="#signup" data-track="cta_click" data-place="mobile_sticky">Записаться на курс</a>
-
-<main id="main">
-  <!-- Hero (blue) -->
-  <section class="hero on-color" id="top" aria-labelledby="hero-title">
-    <span class="hero__para" aria-hidden="true">§</span>
-    <div class="shape shape--circle" style="width:640px;height:640px;right:-200px;top:-260px;background:rgba(255,255,255,.07)"></div>
-    <div class="shape" style="width:300px;height:300px;left:-120px;bottom:-140px;background:rgba(255,255,255,.06);transform:rotate(24deg);border-radius:8px"></div>
-    <div class="shape shape--circle" style="width:120px;height:120px;left:46%;top:40px;background:rgba(255,255,255,.06)"></div>
-    <div class="container hero__grid">
-      <div class="hero__copy">
-        <span class="hero__label">Юридические курсы</span>
-        <h1 id="hero-title">Разбирайтесь в праве и документах, которые двигают бизнес</h1>
-        <p class="hero__sub">Практические курсы по законодательству Кыргызской Республики для предпринимателей, начинающих юристов и специалистов. Разбираем договоры, трудовые вопросы, регистрацию бизнеса и налоговую базу на рабочих кейсах.</p>
-        <div class="btn-row">
-          <a class="btn btn--inverse" href="#directions" data-track="cta_click" data-place="hero_primary">Выбрать направление</a>
-          <a class="btn btn--outline-light" href="#process" data-track="cta_click" data-place="hero_secondary">Как проходит обучение</a>
-        </div>
-      </div>
-
-      <div class="hero__art">
-        <span class="deco-sq" aria-hidden="true"></span>
-        <span class="deco-ci" aria-hidden="true"></span>
-        <figure class="doc" aria-labelledby="doc-cap">
-          <div class="doc__top"><span class="tag tag--law">Учебный кейс</span><span class="tag tag--gold">Договорная работа</span></div>
-          <div class="doc__title">ДОГОВОР ПОСТАВКИ № ___</div>
-          <div class="doc__city"><span>г. Бишкек</span><span>«___» ______ 20__ г.</span></div>
-          <p class="clause">4.1. <mark>Поставщик вправе в одностороннем порядке изменить цену товара</mark>, уведомив Покупателя не позднее чем за 3 (три) календарных дня.</p>
-          <div class="note"><b>Задание</b>Кому выгодно это условие и как его переформулировать в интересах покупателя?</div>
-          <p class="clause">7.2. Споры рассматриваются <mark>в суде по месту нахождения Поставщика</mark>.</p>
-          <figcaption class="doc__caption" id="doc-cap">Иллюстрация формата занятий. Текст учебный.</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- Направления (white) -->
-  <section class="section bg-white" id="directions" aria-labelledby="dir-title">
-    <div class="container">
-      <div class="sh">
-        <span class="label">Направления обучения</span>
-        <h2 id="dir-title">Основа курсов — право. Учёт и налоги — в дополнение</h2>
-        <p class="lead">Основное направление — юриспруденция. Бухгалтерия и налоги дополняют обучение для работы с бизнесом.</p>
-      </div>
-      <div class="grid-2 grid-2--law">
-        <article class="card card--hover direction direction--law">
-          <div class="direction__head">
-            <span class="icon-circle icon-circle--lg" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
-            <span class="tag tag--law tag--white">Основное направление</span>
-          </div>
-          <h3>Юриспруденция</h3>
-          <p>Документы, договоры и правовые процедуры, которые нужны в работе с бизнесом.</p>
-          <ul>
-            <li>Договорная работа</li>
-            <li>Регистрация и ликвидация ИП и ОсОО</li>
-            <li>Трудовое право для работодателя</li>
-            <li>Подготовка юридических документов</li>
-          </ul>
-          <div class="direction__foot">
-            <small>Основное направление</small>
-            <a class="go stretch" href="#signup" data-track="cta_click" data-place="direction_law">Выбрать курс по праву <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-          </div>
-        </article>
-        <article class="card card--hover direction direction--acc">
-          <div class="direction__head">
-            <span class="icon-circle icon-circle--lg" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M8 6h8"/><path d="M16 14v4"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg></span>
-            <span class="tag tag--acc tag--white">Дополнительное направление</span>
-          </div>
-          <h3>Бухгалтерия</h3>
-          <p>Основы учёта, налоги и отчётность для тех, кто ведёт или контролирует учёт в компании.</p>
-          <ul>
-            <li>Основы бухгалтерского учёта</li>
-            <li>Налоги и отчётность в КР</li>
-            <li>Учёт для малого бизнеса</li>
-          </ul>
-          <div class="direction__foot">
-            <small>Дополнительное направление</small>
-            <a class="go stretch" href="#signup" data-track="cta_click" data-place="direction_acc">Выбрать курс по бухгалтерии <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Каталог (gray) -->
-  <section class="section bg-muted" id="catalog" aria-labelledby="cat-title" hidden>
-    <div class="shape shape--circle" style="width:520px;height:520px;right:-220px;top:-180px;background:linear-gradient(135deg,#E5E7EB,transparent 70%)"></div>
-    <div class="container">
-      <div class="sh">
-        <span class="label">Каталог курсов</span>
-        <h2 id="cat-title">Выберите курс</h2>
-        <p class="lead">Четыре юридических курса и два по бухгалтерии. Это примеры программ: названия, длительность, даты и стоимость заполняются после утверждения.</p>
-      </div>
-      <div class="filters" role="group" aria-label="Фильтр по направлению">
-        <button class="filter" type="button" data-filter="all" aria-pressed="true">Все<span class="count" data-count="all"></span></button>
-        <button class="filter" type="button" data-filter="law" aria-pressed="false">Юриспруденция<span class="count" data-count="law"></span></button>
-        <button class="filter" type="button" data-filter="acc" aria-pressed="false">Бухгалтерия<span class="count" data-count="acc"></span></button>
-      </div>
-      <ul class="courses" id="courses" aria-live="polite"></ul>
-    </div>
-  </section>
-
-  <dialog class="course-dialog" id="course-dialog" aria-labelledby="dlg-title">
-    <div class="dlg" id="dlg-body"></div>
-  </dialog>
-
-  <!-- Результаты (white) -->
-  <section class="section bg-white" id="results" aria-labelledby="res-title">
-    <div class="container">
-      <div class="sh">
-        <span class="label">Результаты обучения</span>
-        <h2 id="res-title">Что вы сможете делать после курса</h2>
-      </div>
-      <div class="results">
-        <div class="card results__col results__col--law">
-          <h3>Юриспруденция</h3>
-          <ul class="checks">
-            <li><span class="check-dot" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Читать типовые договоры и находить условия, которые несут риск для вашей стороны</li>
-            <li><span class="check-dot" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Готовить претензии, доверенности, заявления и протоколы по понятной структуре</li>
-            <li><span class="check-dot" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Понимать порядок регистрации, изменения и ликвидации ИП и ОсОО</li>
-            <li><span class="check-dot" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Оформлять приём и увольнение сотрудников с учётом Трудового кодекса КР</li>
-          </ul>
-        </div>
-        <div class="card results__col results__col--acc">
-          <h3>Бухгалтерия</h3>
-          <ul class="checks">
-            <li><span class="check-dot" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Понимать принципы бухгалтерского учёта и роль первичных документов</li>
-            <li><span class="check-dot" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Ориентироваться в налоговых режимах и сроках отчётности для малого бизнеса</li>
-            <li><span class="check-dot" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Работать с учебными примерами отчётности</li>
-          </ul>
-        </div>
-      </div>
-      <p class="fineprint">Список результатов будет сверен с утверждёнными программами курсов.</p>
-    </div>
-  </section>
-
-  <!-- Преподаватели (gray) -->
-  <section class="section bg-muted" id="teachers" aria-labelledby="t-title">
-    <div class="container">
-      <div class="sh">
-        <span class="label">Преподаватели</span>
-        <h2 id="t-title">Кто ведёт занятия</h2>
-        <p class="lead">Курсы организует компания, которая занимается юридическим и бухгалтерским сопровождением бизнеса. Карточки заполняются реальными данными преподавателей.</p>
-      </div>
-      <ul class="people" id="people"></ul>
-    </div>
-  </section>
-
-  <!-- Как проходит обучение (dark) -->
-  <section class="section bg-dark on-color" id="process" aria-labelledby="p-title">
-    <div class="shape" style="width:420px;height:420px;right:-140px;bottom:-160px;background:rgba(255,255,255,.04);transform:rotate(18deg);border-radius:8px"></div>
-    <div class="container">
-      <div class="sh">
-        <span class="label">Как проходит обучение</span>
-        <h2 id="p-title">От заявки до завершения программы</h2>
-      </div>
-      <ol class="steps">
-        <li class="card step"><span class="step__n" aria-hidden="true">01</span><h3>Выбор курса</h3><p>Изучите программы в каталоге или запросите консультацию, если не уверены, какой курс подойдёт.</p></li>
-        <li class="card step"><span class="step__n" aria-hidden="true">02</span><h3>Заявка и условия</h3><p>Оставьте заявку. Мы свяжемся с вами и подтвердим расписание, стоимость и условия оплаты.</p></li>
-        <li class="card step"><span class="step__n" aria-hidden="true">03</span><h3>Занятия и практика</h3><p>Теория, разбор документов и практические задания с обратной связью преподавателя.</p></li>
-        <li class="card step"><span class="step__n" aria-hidden="true">04</span><h3>Завершение</h3><p>Итоговое задание по материалам курса. Условия выдачи документа указаны ниже.</p></li>
-      </ol>
-      <dl class="facts">
-        <div><dt>Формат занятий</dt><dd><span class="tbd">Онлайн, в классе или смешанный — заполнить</span></dd></div>
-        <div><dt>Расписание</dt><dd><span class="tbd">Дни и время занятий — заполнить</span></dd></div>
-        <div><dt>Материалы</dt><dd><span class="tbd">Что получает слушатель — заполнить</span></dd></div>
-        <div><dt>Практические задания</dt><dd>Разбор документов и учебных кейсов. <span class="tbd">Количество — заполнить</span></dd></div>
-        <div><dt>Обратная связь</dt><dd><span class="tbd">Как преподаватель проверяет задания — заполнить</span></dd></div>
-        <div><dt>Документ по окончании</dt><dd><span class="tbd">Выдаётся ли и какой — заполнить</span></dd></div>
-      </dl>
-    </div>
-  </section>
-
-  <!-- Преимущества (emerald) -->
-  <section class="section bg-gold" id="why" aria-labelledby="w-title">
-    <div class="shape shape--circle" style="width:560px;height:560px;left:-220px;top:-200px;background:rgba(255,255,255,.14)"></div>
-    <div class="shape shape--circle" style="width:260px;height:260px;right:6%;bottom:-120px;background:rgba(17,24,39,.08)"></div>
-    <div class="container">
-      <div class="sh">
-        <span class="label">Почему у нас</span>
-        <h2 id="w-title">Чем эти курсы отличаются</h2>
-      </div>
-      <ul class="benefits">
-        <li class="card card--hover benefit">
-          <span class="icon-circle" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></span>
-          <h3>Практика вместо пересказа законов</h3><p>Разбираем договоры, заявления и учётные документы, а не только читаем нормы.</p>
-        </li>
-        <li class="card card--hover benefit">
-          <span class="icon-circle" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
-          <h3>Преподаватели из действующей практики</h3><p>Курсы проводит компания, которая каждый день ведёт юридическое и бухгалтерское сопровождение бизнеса.</p>
-        </li>
-        <li class="card card--hover benefit">
-          <span class="icon-circle" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg></span>
-          <h3>Право и учёт в одной школе</h3><p>Юристу полезно видеть налоговые последствия договора, бухгалтеру — его правовую основу.</p>
-        </li>
-        <li class="card card--hover benefit">
-          <span class="icon-circle" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M12 2 20 7H4z"/></svg></span>
-          <h3>Программы по нормам КР</h3><p>Опираемся на Гражданский, Трудовой и Налоговый кодексы Кыргызской Республики.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Стоимость и запись (amber) -->
-  <section class="section bg-navy on-color" id="signup" aria-labelledby="su-title">
-    <div class="shape" style="width:380px;height:380px;right:-120px;top:-140px;background:rgba(255,255,255,.06);transform:rotate(20deg);border-radius:8px"></div>
-    <div class="shape shape--circle" style="width:220px;height:220px;left:-80px;bottom:-90px;background:var(--gold);opacity:.9"></div>
-    <div class="container">
-      <div class="sh">
-        <span class="label">Стоимость и запись</span>
-        <h2 id="su-title">Запишитесь на курс</h2>
-        <p class="lead">Выберите курс в форме, и слева появятся его условия. После заявки мы свяжемся с вами, чтобы подтвердить детали.</p>
-      </div>
-      <div class="signup">
-        <div class="card summary on-color" aria-live="polite" id="summary"></div>
-        <div class="card form-card">
-          <form class="form" id="signup-form" novalidate>
-            <div class="field">
-              <label for="f-name">Имя</label>
-              <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="f-name-err">
-              <span class="err" id="f-name-err" hidden></span>
-            </div>
-            <div class="field">
-              <label for="f-phone">Телефон или WhatsApp</label>
-              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+996 ___ ___ ___" required aria-describedby="f-phone-hint f-phone-err">
-              <span class="hint" id="f-phone-hint">Номер, по которому удобно связаться</span>
-              <span class="err" id="f-phone-err" hidden></span>
-            </div>
-            <div class="field">
-              <label for="f-course">Интересующий курс</label>
-              <select id="f-course" name="course" required aria-describedby="f-course-err"></select>
-              <span class="err" id="f-course-err" hidden></span>
-            </div>
-            <div class="field">
-              <div class="consent">
-                <input id="f-consent" name="consent" type="checkbox" required aria-describedby="f-consent-err">
-                <label for="f-consent">Согласен на обработку персональных данных для связи по заявке. <span class="tbd">Ссылка на политику — добавить</span></label>
-              </div>
-              <span class="err" id="f-consent-err" hidden></span>
-            </div>
-            <button class="btn btn--primary" type="submit" id="f-submit">Отправить заявку</button>
-            <div id="f-status" role="status" aria-live="polite"></div>
-            <div class="alt-contact" id="alt-contact"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ (white) -->
-  <section class="section bg-white" id="faq" aria-labelledby="faq-title">
-    <div class="container faq">
-      <div class="sh">
-        <span class="label">Вопросы и ответы</span>
-        <h2 id="faq-title">Частые вопросы</h2>
-        <p class="lead">Не нашли ответ? Свяжитесь с нами через <a href="#contacts">контакты</a> или оставьте заявку с пометкой «нужна консультация».</p>
-      </div>
-      <div class="faq__list" id="faq-list"></div>
-    </div>
-  </section>
+</head>
+<body>
+<header class="header"><div class="wrap header-in"><a class="brand" href="#top"><img src="logo.png" alt="Премьер Аудит"><span>ПРЕМЬЕР АУДИТ<small>Юридическая и бухгалтерская компания</small></span></a><nav class="nav" aria-label="Основная навигация"><ul><li><a href="#services">Услуги</a></li><li><a href="#cases">Практика</a></li><li><a href="#about">О компании</a></li><li><a href="#reviews">Отзывы</a></li><li><a href="#courses">Курсы</a></li></ul></nav><a class="header-phone" href="#contacts">+996 555 00 00 00</a><a class="btn btn-primary" href="#contacts">Связаться</a><button class="menu" type="button" aria-expanded="false" aria-label="Открыть меню">☰</button></div><nav class="mobile" aria-label="Мобильная навигация"><div class="wrap"><ul><li><a href="#services">Услуги</a></li><li><a href="#cases">Практика</a></li><li><a href="#about">О компании</a></li><li><a href="#reviews">Отзывы</a></li><li><a href="#courses">Курсы</a></li><li><a href="#contacts">Контакты</a></li></ul></div></nav></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-in"><div class="hero-copy"><span class="kicker">Юридическая и бухгалтерская компания · Бишкек</span><h1>Юридическая и бухгалтерская защита бизнеса</h1><p class="lead">Суды, договоры, регистрация, ликвидация и бухгалтерия — одна команда, один договор</p><div class="actions"><a class="btn btn-primary" href="https://wa.me/996555000000">Написать юристу в WhatsApp</a><a class="text-link" href="#services">Посмотреть услуги и цены <span>↗</span></a></div></div><div class="hero-stats" aria-label="Премьер Аудит в цифрах"><div><strong>10</strong><span>лет на рынке</span></div><div><strong>300<span>+</span></strong><span>клиентов</span></div><div><strong>15</strong><span>экспертов</span></div></div></div><div class="marquee" aria-label="Клиенты Премьер Аудит"><div class="marquee-track"><span>CLIENT / 01</span><span>CLIENT / 02</span><span>CLIENT / 03</span><span>CLIENT / 04</span><span>CLIENT / 05</span><span>CLIENT / 06</span><span>CLIENT / 01</span><span>CLIENT / 02</span><span>CLIENT / 03</span><span>CLIENT / 04</span><span>CLIENT / 05</span><span>CLIENT / 06</span></div></div></section>
+<section class="proofbar"><div class="wrap proofbar-in"><div class="proofbar-item"><strong>Юрист и бухгалтер</strong><span>В одной команде</span></div><div class="proofbar-item"><strong>ИП и ОсОО</strong><span>Фокус на задачах бизнеса</span></div><div class="proofbar-item"><strong>Работа по договору</strong><span>Объём и сроки фиксируем</span></div><div class="proofbar-item"><strong>Бишкек и онлайн</strong><span>Удобный формат связи</span></div></div></section>
+<section class="partners" id="partners"><div class="wrap partners-in"><div class="partners-copy"><span class="kicker">Нам доверяют</span><h3>Партнёры и компании</h3><p>Работаем с компаниями из разных отраслей. Логотипы публикуем с разрешения клиентов.</p></div><div class="logo-row"><div class="logo" aria-label="Торговая компания">Торговая компания</div><div class="logo" aria-label="IT-компания">IT-компания</div><div class="logo" aria-label="Иностранный инвестор">Иностранный инвестор</div><div class="logo" aria-label="Строительная компания">Строительная компания</div><div class="logo" aria-label="Сервисный бизнес">Сервисный бизнес</div><div class="logo" aria-label="Производственная компания">Производство</div></div></div></section>
+<section class="section situations" id="situations" aria-labelledby="situations-title"><div class="wrap"><div class="situations-head"><span class="kicker">С чем к нам приходят</span><h2 id="situations-title">Когда бизнесу нужен ясный следующий шаг.</h2></div><div class="situation-list"><a class="situation-row" href="#contacts"><span class="situation-number">01</span><strong>Партнёр не платит по договору</strong><span class="situation-link">Решение <b>→</b></span></a><a class="situation-row" href="#contacts"><span class="situation-number">02</span><strong>Нужно открыть компанию — в том числе иностранцу</strong><span class="situation-link">Решение <b>→</b></span></a><a class="situation-row" href="#contacts"><span class="situation-number">03</span><strong>Пришла проверка из налоговой</strong><span class="situation-link">Решение <b>→</b></span></a><a class="situation-row" href="#contacts"><span class="situation-number">04</span><strong>Нужно закрыть бизнес без долгов и штрафов</strong><span class="situation-link">Решение <b>→</b></span></a><a class="situation-row" href="#contacts"><span class="situation-number">05</span><strong>Нужен договор, который действительно защитит</strong><span class="situation-link">Решение <b>→</b></span></a><a class="situation-row" href="#contacts"><span class="situation-number">06</span><strong>Нет своего бухгалтера, а отчётность горит</strong><span class="situation-link">Решение <b>→</b></span></a></div></div></section>
+<section class="section"><div class="wrap intro" id="about"><aside class="intro-aside"><span class="kicker">О компании</span><h2>Юрист и бухгалтер в одной связке.</h2></aside><div class="intro-main"><p>Вы получаете один понятный маршрут: от вопроса и документов до решения и сопровождения.</p><div class="intro-point"><strong>Понятный язык</strong><span>Объясняем риски и следующий шаг без лишней терминологии.</span></div><div class="intro-point"><strong>Один контакт</strong><span>За задачу отвечает конкретный специалист.</span></div><div class="intro-point"><strong>Конфиденциальность</strong><span>Бережно работаем с информацией о бизнесе.</span></div></div></div></section>
+<section class="section dark" id="services"><div class="wrap"><div class="services-head"><div><span class="kicker light">Услуги и кто за них отвечает</span><h2>Один список. Понятная ответственность.</h2></div><p>Стоимость и срок обозначаем до начала работы. За каждой задачей закреплён конкретный специалист.</p></div><div class="service-list"><article class="service-row"><div class="service-info"><h3>Консультация юриста</h3><p>Разбираем ситуацию, документы и ближайший порядок действий.</p></div><div class="service-meta"><strong>от 2 000 сом</strong><span>30 мин</span></div><div class="service-expert"><span class="expert-photo" aria-hidden="true">Ю</span><span><b>Айдана С.</b><small>Юрист</small></span></div></article><article class="service-row"><div class="service-info"><h3>Представление в суде</h3><p>Готовим позицию и представляем интересы компании в процессе.</p></div><div class="service-meta"><strong>от 8 000 сом</strong><span>за день</span></div><div class="service-expert"><span class="expert-photo" aria-hidden="true">М</span><span><b>Марат А.</b><small>Адвокат</small></span></div></article><article class="service-row"><div class="service-info"><h3>Подготовка документов и исков</h3><p>Составляем договоры, претензии, иски и ответы на юридически значимые документы.</p></div><div class="service-meta"><strong>от 8 000 сом</strong><span>срок после разбора</span></div><div class="service-expert"><span class="expert-photo" aria-hidden="true">А</span><span><b>Айдана С.</b><small>Юрист</small></span></div></article><article class="service-row"><div class="service-info"><h3>Регистрация компании под ключ</h3><p>Помогаем открыть ИП или ОсОО, в том числе иностранному предпринимателю.</p></div><div class="service-meta"><strong>от 50 000 сом</strong><span>7 дней</span></div><div class="service-expert"><span class="expert-photo" aria-hidden="true">Н</span><span><b>Нурбек К.</b><small>Юрист по регистрации</small></span></div></article><article class="service-row"><div class="service-info"><h3>Ликвидация</h3><p>Сопровождаем закрытие бизнеса и помогаем пройти процедуру без лишних рисков.</p></div><div class="service-meta"><strong>от 80 000 сом</strong><span>от 60 дней</span></div><div class="service-expert"><span class="expert-photo" aria-hidden="true">М</span><span><b>Марат А.</b><small>Юрист</small></span></div></article><article class="service-row"><div class="service-info"><h3>Бухгалтерское сопровождение</h3><p>Ведём учёт, налоги, первичные документы и отчётность компании.</p></div><div class="service-meta"><strong>по расчёту</strong><span>в месяц</span></div><div class="service-expert"><span class="expert-photo" aria-hidden="true">Г</span><span><b>Гульнара Т.</b><small>Главный бухгалтер</small></span></div></article><article class="service-row"><div class="service-info"><h3>Абонентское юр. обслуживание</h3><p>Закрываем регулярные юридические вопросы бизнеса по согласованному плану.</p></div><div class="service-meta"><strong>от 30 000 сом</strong><span>в месяц</span></div><div class="service-expert"><span class="expert-photo" aria-hidden="true">А</span><span><b>Айдана С.</b><small>Руководитель практики</small></span></div></article></div></div></section>
+<section class="section" id="prices"><div class="wrap formats"><div><span class="kicker">Форматы работы</span><h2>Стоимость зависит от задачи, а не от шаблона.</h2><p class="lead" style="margin-top:20px">После короткого разговора изучаем объём документов и фиксируем состав работ, сроки и стоимость в договоре.</p></div><div class="format-list"><div class="format-item"><b>01</b><div><h3>Разовая консультация</h3><p>Разбираем ситуацию, документы и ближайшие риски. Подходит для первого обращения.</p></div></div><div class="format-item"><b>02</b><div><h3>Проверка и подготовка документов</h3><p>Договоры, претензии, регистрационные документы и другие юридические задачи.</p></div></div><div class="format-item"><b>03</b><div><h3>Постоянное сопровождение</h3><p>Бухгалтерия, налоги и юридические вопросы в одном согласованном формате.</p></div></div></div></div></section>
+<section class="section soft credentials-section"><div class="wrap"><div class="head"><span class="kicker">Квалификация и ответственность</span><h2>Доверие подтверждается документами, а не обещаниями.</h2><p class="lead">В этот блок добавляются реальные лицензии, сертификаты, страхование и другие подтверждения компании.</p></div><div class="credential"><div class="blank"><span>Место для лицензии<br>или сертификата</span></div><div class="credential-copy"><h3>Лицензии и сертификаты</h3><p>Показываем документы специалистов и компании. Каждая копия открывается отдельно и имеет понятное описание.</p><a href="#contacts">Запросить документы →</a><div class="credential-note">Работаем по договору · Соблюдаем конфиденциальность · Фиксируем ответственность сторон</div></div></div></div></section>
+<section class="section" id="cases"><div class="wrap"><div class="head"><span class="kicker">Дела</span><h2>Результаты, которые можно проверить.</h2><p class="lead">Каждое дело начинается с конкретной задачи и заканчивается понятным результатом.</p></div><div class="case-grid"><article class="case-card"><div class="case-top"><span>Дело № 01</span><span>Спор с поставщиком</span></div><h3>Взыскали 1,2 млн сом с недобросовестного поставщика за 4 месяца</h3><div class="case-detail"><span>Задача</span><p>Поставщик нарушил условия договора и не возвращал деньги.</p></div><div class="case-detail"><span>Что сделали</span><p>Собрали доказательства, подготовили претензию и представили интересы компании в суде.</p></div></article><article class="case-card"><div class="case-top"><span>Дело № 02</span><span>Регистрация бизнеса</span></div><h3>Открыли компанию для иностранного инвестора за 7 дней</h3><div class="case-detail"><span>Задача</span><p>Нужно было быстро запустить компанию в Кыргызстане с учётом статуса иностранного учредителя.</p></div><div class="case-detail"><span>Что сделали</span><p>Подготовили документы, сопроводили регистрацию и объяснили следующие шаги.</p></div></article><article class="case-card"><div class="case-top"><span>Дело № 03</span><span>Ликвидация</span></div><h3>Закрыли ООО без штрафов после 3 лет нулевой отчётности</h3><div class="case-detail"><span>Задача</span><p>Компания не работала несколько лет, но оставалась в реестрах и имела неоформленную отчётность.</p></div><div class="case-detail"><span>Что сделали</span><p>Проверили обязательства, восстановили порядок в документах и провели закрытие компании.</p></div></article></div></div></section>
+<section class="section process" id="process"><div class="wrap"><div class="process-head"><span class="kicker">Что будет после заявки</span><h2>Понятный путь без лишних шагов.</h2></div><div class="process-line"><article class="process-step"><b>01</b><h3>Ответим в течение 30 минут</h3></article><article class="process-step"><b>02</b><h3>Консультация: разберём ситуацию и назовём цену</h3></article><article class="process-step"><b>03</b><h3>Договор и фиксированная стоимость — без сюрпризов</h3></article><article class="process-step"><b>04</b><h3>Держим вас в курсе на каждом этапе</h3></article></div></div></section>
+<section class="section reviews" id="reviews"><div class="wrap"><div class="reviews-head"><div><span class="kicker">Отзывы клиентов</span><h2>Что говорят после работы с нами.</h2><p class="reviews-note">Публикуем отзывы с разрешения клиентов. Полные подтверждения предоставляем по запросу.</p></div><div class="review-controls"><button class="review-arrow" type="button" data-review-prev aria-label="Предыдущий отзыв">←</button><button class="review-arrow" type="button" data-review-next aria-label="Следующий отзыв">→</button></div></div><div class="review-viewport"><div class="review-track"><article class="review-slide" aria-label="Отзыв 1 из 3"><blockquote>«За несколько дней разобрали документы и объяснили, какие шаги нужны дальше. Стоимость и сроки были понятны заранее.»</blockquote><div class="review-meta"><strong>Владелец торговой компании</strong><span>Бишкек · юридическая консультация</span><a href="#contacts">Подтверждение по запросу ↗</a></div></article><article class="review-slide" aria-label="Отзыв 2 из 3"><blockquote>«Открытие компании для иностранного учредителя прошло спокойно: команда взяла на себя документы и регистрацию.»</blockquote><div class="review-meta"><strong>Иностранный предприниматель</strong><span>Бишкек · регистрация компании</span><a href="#contacts">Подтверждение по запросу ↗</a></div></article><article class="review-slide" aria-label="Отзыв 3 из 3"><blockquote>«Получили понятную бухгалтерскую поддержку и перестали переживать за отчётность.»</blockquote><div class="review-meta"><strong>Руководитель малого бизнеса</strong><span>Бишкек · бухгалтерское сопровождение</span><a href="#contacts">Подтверждение по запросу ↗</a></div></article></div></div></div></section>
+<section class="section courses" id="courses"><div class="wrap"><div class="courses-head"><span class="kicker">Обучение</span><h2>Курсы для предпринимателей и специалистов.</h2><p>Практические занятия по юридическим и бухгалтерским вопросам бизнеса.</p></div><div class="course-list"><article><span>01</span><div><h3>Правовая основа бизнеса</h3><p>Договоры, ответственность и базовые документы компании.</p></div><a href="#contacts">Уточнить программу →</a></article><article><span>02</span><div><h3>Бухгалтерия и налоги</h3><p>Учёт, отчётность и налоговые обязанности бизнеса.</p></div><a href="#contacts">Уточнить программу →</a></article></div><p class="courses-note">Темы показаны как ориентир. Актуальные программы и расписание уточняются у компании.</p></div></section>
+<section class="section" id="team"><div class="wrap team-layout"><div><span class="kicker">Специалисты</span><h2>Люди, которые ведут ваши задачи.</h2><p class="lead" style="margin-top:20px">За каждой задачей закреплён специалист соответствующей практики.</p></div><div class="team-grid"><article class="person"><div class="blank"><span aria-hidden="true"></span></div><h3>Юридическая практика</h3><small>Договоры · суды · регистрация</small><p>Отвечает за юридические решения и документы бизнеса.</p></article><article class="person"><div class="blank"><span aria-hidden="true"></span></div><h3>Бухгалтерская практика</h3><small>Учёт · налоги · отчётность</small><p>Отвечает за порядок в учёте и обязательной отчётности.</p></article></div></div></section>
+<section class="section soft" id="faq"><div class="wrap faq-layout"><div><span class="kicker">Вопросы и ответы</span><h2>Перед обращением всё понятно.</h2><p class="lead" style="margin-top:20px">Если не нашли свой вопрос, напишите нам. Мы ответим и предложим следующий шаг.</p></div><div class="faq-list"><div class="faq"><button type="button" aria-expanded="true"><span>С какими компаниями вы работаете?</span><span>−</span></button><div class="faq-answer">С ИП, ОсОО и предпринимателями, которым нужна разовая юридическая или бухгалтерская помощь.</div></div><div class="faq"><button type="button" aria-expanded="false"><span>Можно ли начать с консультации?</span><span>+</span></button><div class="faq-answer" hidden>Да. Можно начать с консультации, проверки документа или оценки ситуации.</div></div><div class="faq"><button type="button" aria-expanded="false"><span>Как формируется стоимость?</span><span>+</span></button><div class="faq-answer" hidden>Стоимость зависит от сложности задачи, объёма документов, срочности и длительности сопровождения.</div></div><div class="faq"><button type="button" aria-expanded="false"><span>Что происходит после заявки?</span><span>+</span></button><div class="faq-answer" hidden>Специалист связывается с вами, уточняет задачу и согласовывает следующий шаг.</div></div></div></div></section>
+<section class="section contact" id="contacts"><div class="wrap contact-in"><span class="kicker light">Обсудим вашу задачу</span><h2>Расскажите, что случилось.<br><em>Первый ответ — бесплатно.</em></h2><div class="contact-actions"><a class="contact-button contact-button-light" href="https://wa.me/996555000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D0%B0%D0%B9%D1%82%D0%B0%2C%20%D0%BD%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F" target="_blank" rel="noopener">Написать в WhatsApp <span>↗</span></a><a class="contact-button contact-button-outline" href="https://t.me/share/url?url=https%3A%2F%2Fpremier-audit.kg&amp;text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%9F%D0%B8%D1%88%D1%83%20%D1%81%20%D0%B0%D0%B9%D1%82%D0%B0%2C%20%D0%BD%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F" target="_blank" rel="noopener">Написать в Telegram <span>↗</span></a></div><div class="contact-bottom"><span>Бишкек, Кыргызстан</span><span>Пн–Пт, 09:00–18:00</span><a href="tel:+996555000000">+996 555 00 00 00</a><span>Всё, что вы расскажете, остаётся конфиденциальным.</span></div></div></section>
 </main>
-
-<!-- Footer (dark) -->
-<footer class="footer on-color" id="contacts" aria-labelledby="c-title">
-  <div class="container">
-    <div class="footer__grid">
-      <div>
-        <h2 id="c-title">Контакты</h2>
-        <dl id="contact-list"></dl>
-      </div>
-      <div>
-        <h2>Соцсети</h2>
-        <ul id="social-list"></ul>
-      </div>
-      <div>
-        <h2>Документы</h2>
-        <ul>
-          <li><span class="tbd">Политика обработки персональных данных — добавить</span></li>
-          <li><span class="tbd">Условия оказания образовательных услуг — добавить</span></li>
-          <li><span class="tbd">Реквизиты: наименование, ИНН, адрес — добавить</span></li>
-          <li><span class="tbd">Лицензия на образовательную деятельность — уточнить</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <span>© 2026 <span data-fill="companyName">Название компании — уточняется</span></span>
-      <span>Курсы по праву и бухгалтерии, Кыргызская Республика</span>
-    </div>
-  </div>
-</footer>
-
-<script>
-/* ===== Данные: заполните здесь, разметку править не нужно ===== */
-var CONFIG = {
-  schoolName: '',         // название образовательного проекта
-  companyName: '',        // юридическое название компании
-  phone: '',              // '+996 555 000 000'
-  whatsapp: '',           // только цифры: '996555000000'
-  email: '',
-  address: '',
-  instagram: 'https://www.instagram.com/llc.bishkek',
-  formEndpoint: ''        // URL приёма заявок (POST JSON). Пока пусто — заявки не отправляются
-};
-
-var CATEGORIES = { law: 'Юриспруденция', acc: 'Бухгалтерия' };
-
-// Примеры программ. Поля duration/format/start/price/included/payment/refund пустые до утверждения.
-var COURSES = [
-  { id: 'contracts', cat: 'law', title: 'Договорная работа для бизнеса', level: 'Для начинающих',
-    audience: 'Предприниматели, начинающие юристы, менеджеры',
-    result: 'Научитесь проверять типовые договоры и находить рискованные условия до подписания.',
-    topics: ['Структура договора и существенные условия', 'Поставка, услуги, аренда: типовые риски', 'Неустойка и ответственность сторон', 'Протокол разногласий и переговоры по тексту'] },
-  { id: 'registration', cat: 'law', title: 'Регистрация, изменение и ликвидация бизнеса', level: 'Для начинающих',
-    audience: 'Предприниматели, помощники юристов',
-    result: 'Разберётесь в порядке регистрации ИП и ОсОО, внесения изменений и закрытия бизнеса.',
-    topics: ['ИП или ОсОО: как выбрать форму', 'Учредительные документы ОсОО', 'Смена учредителя, директора, адреса', 'Ликвидация ОсОО и прекращение деятельности ИП'] },
-  { id: 'labor', cat: 'law', title: 'Трудовое право для работодателя', level: 'Базовый уровень',
-    audience: 'Руководители, кадровые специалисты, юристы',
-    result: 'Сможете оформлять приём, перевод и увольнение сотрудников по Трудовому кодексу КР.',
-    topics: ['Трудовой договор и его условия', 'Кадровые документы и приказы', 'Увольнение: основания и порядок', 'Трудовые споры'] },
-  { id: 'documents', cat: 'law', title: 'Юридические документы на практике', level: 'Для начинающих',
-    audience: 'Студенты, выпускники, начинающие юристы',
-    result: 'Научитесь готовить претензии, доверенности, заявления и протоколы по понятной структуре.',
-    topics: ['Претензия и досудебный порядок', 'Доверенности', 'Заявления в государственные органы', 'Протоколы и решения участников ОсОО'] },
-  { id: 'basics', cat: 'acc', title: 'Основы бухгалтерского учёта', level: 'С нуля',
-    audience: 'Студенты, начинающие бухгалтеры, предприниматели',
-    result: 'Поймёте, как устроен учёт: первичные документы, счета и основные хозяйственные операции.',
-    topics: ['Принципы учёта и план счетов', 'Первичные документы', 'Типовые операции', 'Учебная отчётность'] },
-  { id: 'tax', cat: 'acc', title: 'Налоги и отчётность в КР', level: 'Базовый уровень',
-    audience: 'Бухгалтеры, предприниматели',
-    result: 'Разберётесь в налоговых режимах, сроках и составе отчётности для малого бизнеса.',
-    topics: ['Налоговые режимы для ИП и ОсОО', 'Сроки и состав отчётности', 'Отчётность в ГНС и Социальный фонд', 'Типичные ошибки и их последствия'] }
-];
-
-var INSTRUCTORS = [
-  { name: '', role: '', bio: '', experience: '', education: '', topics: '', photo: '' },
-  { name: '', role: '', bio: '', experience: '', education: '', topics: '', photo: '' },
-  { name: '', role: '', bio: '', experience: '', education: '', topics: '', photo: '' }
-];
-
-var FAQ = [
-  ['Кому подходит обучение?', 'Начинающим юристам и бухгалтерам, студентам и выпускникам, предпринимателям и специалистам, которым нужны практические знания для работы с документами и бизнес-процессами.'],
-  ['Нужен ли опыт?', 'Зависит от курса. Уровень подготовки указан в карточке каждого курса в каталоге.'],
-  ['Как проходит обучение?', 'Теория, разбор документов и практические задания с обратной связью. Подробнее — в разделе «Как проходит обучение». ', 'Формат: онлайн, в классе или смешанный — заполнить'],
-  ['Сколько длится курс?', 'Длительность указывается в карточке курса. ', 'Длительность каждого курса — заполнить'],
-  ['Есть ли практические задания?', 'Да. Программы строятся на работе с документами и учебными кейсами. Пример задания есть выше на странице.'],
-  ['Как производится оплата?', '', 'Способы оплаты, оплата частями, договор с юрлицом — заполнить'],
-  ['Выдаётся ли документ после окончания?', '', 'Выдаётся ли документ, какой и на каких условиях — заполнить'],
-  ['Можно ли пропустить или перенести занятие?', '', 'Записи занятий, перенос, переход в другую группу — заполнить'],
-  ['Как связаться с организаторами?', 'Контакты указаны внизу страницы. Можно также оставить заявку с пометкой «нужна консультация по выбору».']
-];
-
-/* ===== Утилиты ===== */
-var ICON_ARROW = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
-function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
-function tbd(label) { return '<span class="tbd">' + esc(label) + '</span>'; }
-function val(v, label) { return v ? esc(v) : tbd(label); }
-function catTag(c) { return '<span class="tag tag--' + c.cat + '">' + CATEGORIES[c.cat] + '</span>' + (c.confirmed ? '' : '<span class="tag tag--tbd">Пример программы</span>'); }
-function track(event, params) {
-  // Готово для GTM / Яндекс Метрики: события попадают в dataLayer, внешние сервисы не подключены
-  try { (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: event }, params || {})); } catch (e) {}
-}
-function waLink(text) { return 'https://wa.me/' + CONFIG.whatsapp + (text ? '?text=' + encodeURIComponent(text) : ''); }
-function courseById(id) { for (var i = 0; i < COURSES.length; i++) if (COURSES[i].id === id) return COURSES[i]; return null; }
-
-/* ===== Header / mobile nav ===== */
-(function () {
-  var btn = document.querySelector('.burger'), menu = document.getElementById('mnav');
-  function set(open) { btn.setAttribute('aria-expanded', String(open)); btn.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню'); menu.hidden = !open; }
-  btn.addEventListener('click', function () { set(menu.hidden); });
-  menu.addEventListener('click', function (e) { if (e.target.closest('a')) set(false); });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) { set(false); btn.focus(); } });
-})();
-
-if (CONFIG.schoolName) document.querySelectorAll('[data-fill="schoolName"]').forEach(function (n) { n.textContent = CONFIG.schoolName; });
-if (CONFIG.companyName) document.querySelectorAll('[data-fill="companyName"]').forEach(function (n) { n.textContent = CONFIG.companyName; });
-
-/* ===== CourseCard + каталог ===== */
-var listEl = document.getElementById('courses');
-function courseMeta(c) {
-  return '<dl class="meta">' +
-    '<dt>Длительность</dt><dd>' + val(c.duration, 'уточняется') + '</dd>' +
-    '<dt>Формат</dt><dd>' + val(c.format, 'уточняется') + '</dd>' +
-    '<dt>Старт</dt><dd>' + val(c.start, 'уточняется') + '</dd>' +
-    '<dt>Стоимость</dt><dd>' + val(c.price, 'уточняется') + '</dd></dl>';
-}
-function renderCourses(filter) {
-  listEl.innerHTML = COURSES.filter(function (c) { return filter === 'all' || c.cat === filter; }).map(function (c) {
-    return '<li><article class="card card--hover course" aria-labelledby="c-' + c.id + '">' +
-      '<div class="course__tags">' + catTag(c) + '</div>' +
-      '<h3 id="c-' + c.id + '">' + esc(c.title) + '</h3>' +
-      '<span class="course__level">' + esc(c.level) + ' · ' + esc(c.audience) + '</span>' +
-      '<p class="course__result">' + esc(c.result) + '</p>' + courseMeta(c) +
-      '<div class="course__actions">' +
-        '<button class="btn btn--primary btn--sm" type="button" data-enroll="' + c.id + '">Записаться на курс</button>' +
-        '<button class="btn btn--secondary btn--sm" type="button" data-open="' + c.id + '">Программа</button>' +
-      '</div></article></li>';
-  }).join('');
-}
-document.querySelectorAll('[data-count]').forEach(function (n) {
-  var k = n.getAttribute('data-count');
-  n.textContent = COURSES.filter(function (c) { return k === 'all' || c.cat === k; }).length;
-});
-function setFilter(f) {
-  document.querySelectorAll('.filter').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-filter') === f)); });
-  renderCourses(f);
-}
-document.querySelector('.filters').addEventListener('click', function (e) {
-  var b = e.target.closest('.filter'); if (!b) return;
-  setFilter(b.getAttribute('data-filter')); track('catalog_filter', { category: b.getAttribute('data-filter') });
-});
-document.querySelectorAll('[data-filter-jump]').forEach(function (b) {
-  b.addEventListener('click', function () {
-    var f = b.getAttribute('data-filter-jump');
-    setFilter(f); track('direction_click', { category: f });
-    document.getElementById('catalog').scrollIntoView();
-    document.querySelector('.filter[data-filter="' + f + '"]').focus({ preventScroll: true });
-  });
-});
-setFilter('all');
-
-/* ===== Диалог курса ===== */
-var dlg = document.getElementById('course-dialog'), dlgBody = document.getElementById('dlg-body'), lastOpener = null;
-function openCourse(id, opener) {
-  var c = courseById(id); if (!c) return;
-  lastOpener = opener || null;
-  dlgBody.innerHTML =
-    '<div class="dlg__head"><div class="dlg__title"><div class="course__tags">' + catTag(c) + '</div>' +
-    '<h3 id="dlg-title">' + esc(c.title) + '</h3></div>' +
-    '<button class="icon-btn" type="button" data-close aria-label="Закрыть"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>' +
-    '<p>' + esc(c.result) + '</p>' +
-    '<div><h4>Для кого</h4><p>' + esc(c.level) + '. ' + esc(c.audience) + '.</p></div>' +
-    '<div><h4>Темы программы</h4><ol>' + c.topics.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ol></div>' +
-    courseMeta(c) +
-    '<div class="btn-row"><button class="btn btn--primary" type="button" data-enroll="' + c.id + '">Записаться на курс</button>' +
-    '<button class="btn btn--secondary" type="button" data-close>Назад к каталогу</button></div>';
-  if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
-  track('course_open', { course: c.id });
-}
-function closeDialog() { if (dlg.open) dlg.close(); }
-dlg.addEventListener('close', function () { if (lastOpener) lastOpener.focus(); });
-dlg.addEventListener('click', function (e) {
-  if (e.target === dlg || e.target.closest('[data-close]')) closeDialog();
-});
-
-/* ===== Выбор курса → форма ===== */
-var sel = document.getElementById('f-course');
-sel.innerHTML = '<option value="">Выберите курс</option>' +
-  Object.keys(CATEGORIES).map(function (k) {
-    return '<optgroup label="' + CATEGORIES[k] + '">' + COURSES.filter(function (c) { return c.cat === k; }).map(function (c) {
-      return '<option value="' + c.id + '">' + esc(c.title) + '</option>';
-    }).join('') + '</optgroup>';
-  }).join('') + '<option value="consult">Не определился, нужна консультация</option>';
-
-function renderSummary() {
-  var c = courseById(sel.value), box = document.getElementById('summary');
-  if (!c) {
-    box.innerHTML = '<span class="summary__label">Условия курса</span><h3>' + (sel.value === 'consult' ? 'Консультация по выбору курса' : 'Курс не выбран') + '</h3>' +
-      '<p>' + (sel.value === 'consult' ? 'Мы расскажем о программах и поможем выбрать подходящую.' : 'Выберите курс в форме, чтобы увидеть стоимость, даты и формат.') + '</p>';
-    return;
-  }
-  function row(k, v, l) { return '<div><dt>' + k + '</dt><dd>' + val(v, l) + '</dd></div>'; }
-  box.innerHTML = '<span class="summary__label">' + CATEGORIES[c.cat] + '</span><h3>' + esc(c.title) + '</h3><dl>' +
-    row('Стоимость', c.price, 'заполнить') + row('Дата старта', c.start, 'заполнить') + row('Длительность', c.duration, 'заполнить') +
-    row('Формат', c.format, 'заполнить') + row('Что входит', c.included, 'заполнить') + row('Условия оплаты', c.payment, 'заполнить') +
-    row('Возврат', c.refund, 'заполнить') + '</dl>';
-}
-sel.addEventListener('change', function () { renderSummary(); renderAlt(); });
-
-function enroll(id) {
-  closeDialog();
-  sel.value = id; renderSummary(); renderAlt();
-  track('cta_click', { place: 'course_card', course: id });
-  document.getElementById('signup').scrollIntoView();
-  document.getElementById('f-name').focus({ preventScroll: true });
-}
-document.addEventListener('click', function (e) {
-  var o = e.target.closest('[data-open]'); if (o) { openCourse(o.getAttribute('data-open'), o); return; }
-  var en = e.target.closest('[data-enroll]'); if (en) { lastOpener = null; enroll(en.getAttribute('data-enroll')); return; }
-  var t = e.target.closest('[data-track]'); if (t) track(t.getAttribute('data-track'), { place: t.getAttribute('data-place') });
-  var w = e.target.closest('[data-wa]'); if (w) track('whatsapp_click', { place: w.getAttribute('data-wa') });
-});
-
-/* ===== WhatsApp / альтернативный контакт ===== */
-function renderAlt() {
-  var box = document.getElementById('alt-contact');
-  if (!CONFIG.whatsapp) { box.innerHTML = '<span>Или напишите в WhatsApp:</span>' + tbd('номер WhatsApp — заполнить'); return; }
-  var c = courseById(sel.value);
-  box.innerHTML = '<span>Удобнее написать?</span><a class="btn btn--outline btn--sm" data-wa="form" target="_blank" rel="noopener" href="' +
-    waLink('Здравствуйте! Интересует курс' + (c ? ' «' + c.title + '»' : '') + '.') + '">Написать в WhatsApp ' + ICON_ARROW + '</a>';
-}
-
-/* ===== ContactForm ===== */
-var form = document.getElementById('signup-form'), statusEl = document.getElementById('f-status'), submitBtn = document.getElementById('f-submit'), started = false;
-function setErr(input, msg) {
-  var err = document.getElementById(input.id + '-err');
-  input.setAttribute('aria-invalid', msg ? 'true' : 'false');
-  err.textContent = msg || ''; err.hidden = !msg;
-}
-function showStatus(kind, title, text) {
-  statusEl.innerHTML = '<div class="status status--' + kind + '"><b>' + esc(title) + '</b><span>' + text + '</span></div>';
-}
-function validate() {
-  var name = document.getElementById('f-name'), phone = document.getElementById('f-phone'), consent = document.getElementById('f-consent');
-  var digits = phone.value.replace(/\D/g, '');
-  var checks = [
-    [name, name.value.trim().length < 2 ? 'Укажите имя, чтобы мы знали, как к вам обращаться.' : ''],
-    [phone, digits.length < 9 ? 'Укажите номер телефона полностью, например +996 555 123 456.' : ''],
-    [sel, !sel.value ? 'Выберите курс или вариант «нужна консультация».' : ''],
-    [consent, !consent.checked ? 'Без согласия на обработку данных мы не сможем связаться с вами.' : '']
-  ];
-  var first = null;
-  checks.forEach(function (c) { setErr(c[0], c[1]); if (c[1] && !first) first = c[0]; });
-  return first;
-}
-form.addEventListener('input', function (e) {
-  if (!started) { started = true; track('form_start'); }
-  if (e.target.getAttribute('aria-invalid') === 'true') setErr(e.target, '');
-});
-form.addEventListener('change', function (e) { if (e.target.getAttribute('aria-invalid') === 'true') setErr(e.target, ''); });
-form.addEventListener('submit', function (e) {
-  e.preventDefault();
-  statusEl.innerHTML = '';
-  var bad = validate();
-  if (bad) { bad.focus(); showStatus('error', 'Проверьте форму', 'Исправьте отмеченные поля и отправьте ещё раз.'); return; }
-  var data = { name: document.getElementById('f-name').value.trim(), phone: document.getElementById('f-phone').value.trim(), course: sel.value, consent: true };
-  track('form_submit_attempt', { course: data.course });
-
-  if (!CONFIG.formEndpoint) {
-    showStatus('warn', 'Заявка не отправлена', 'Приём заявок ещё не подключён к серверу. Введённые данные сохранены в форме. Для запуска сайта нужно указать адрес приёма заявок в настройках.');
-    return;
-  }
-  submitBtn.disabled = true; submitBtn.textContent = 'Отправляем…';
-  fetch(CONFIG.formEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
-    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); })
-    .then(function () {
-      track('form_submit_success', { course: data.course });
-      showStatus('success', 'Заявка отправлена', 'Мы свяжемся с вами по номеру ' + esc(data.phone) + ', чтобы подтвердить условия обучения.');
-      form.reset(); renderSummary(); renderAlt();
-    })
-    .catch(function () {
-      showStatus('error', 'Не удалось отправить заявку', 'Проверьте подключение к интернету и попробуйте ещё раз. Данные остались в форме.' + (CONFIG.whatsapp ? ' Можно также написать нам в WhatsApp.' : ''));
-    })
-    .then(function () { submitBtn.disabled = false; submitBtn.textContent = 'Отправить заявку'; });
-});
-
-/* ===== InstructorCard ===== */
-document.getElementById('people').innerHTML = INSTRUCTORS.map(function (p, i) {
-  var photo = p.photo
-    ? '<img src="' + esc(p.photo) + '" alt="' + esc(p.name) + '" width="640" height="480" loading="lazy" decoding="async">'
-    : '<div style="display:grid;gap:10px;justify-items:center"><span class="icon-circle icon-circle--lg" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span>' + tbd('Фото преподавателя') + '</div>';
-  return '<li class="card person"><div class="person__photo">' + photo + '</div>' +
-    '<h3>' + (p.name ? esc(p.name) : tbd('ФИО преподавателя ' + (i + 1))) + '</h3>' +
-    '<span class="person__role">' + val(p.role, 'Специализация') + '</span>' +
-    '<dl><div><dt>О преподавателе</dt><dd>' + val(p.bio, 'Краткая биография') + '</dd></div>' +
-    '<div><dt>Опыт</dt><dd>' + val(p.experience, 'Подтверждённый опыт') + '</dd></div>' +
-    '<div><dt>Образование</dt><dd>' + val(p.education, 'Образование, квалификации') + '</dd></div>' +
-    '<div><dt>Ведёт темы</dt><dd>' + val(p.topics, 'Темы курса') + '</dd></div></dl></li>';
-}).join('');
-
-/* ===== FAQAccordion ===== */
-document.getElementById('faq-list').innerHTML = FAQ.map(function (q, i) {
-  var ans = esc(q[1]) + (q[2] ? tbd(q[2]) : '');
-  return '<div class="faq__item"><h3><button class="faq__btn" type="button" id="faq-b' + i + '" aria-expanded="' + (i === 0) + '" aria-controls="faq-p' + i + '">' +
-    '<span>' + esc(q[0]) + '</span><span class="faq__icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></h3>' +
-    '<div class="faq__panel" id="faq-p' + i + '" role="region" aria-labelledby="faq-b' + i + '"' + (i === 0 ? '' : ' hidden') + '>' + ans + '</div></div>';
-}).join('');
-document.getElementById('faq-list').addEventListener('click', function (e) {
-  var b = e.target.closest('.faq__btn'); if (!b) return;
-  var open = b.getAttribute('aria-expanded') !== 'true';
-  b.setAttribute('aria-expanded', String(open));
-  document.getElementById(b.getAttribute('aria-controls')).hidden = !open;
-  if (open) track('faq_open', { question: b.textContent.trim() });
-});
-
-/* ===== Footer ===== */
-document.getElementById('contact-list').innerHTML =
-  '<div><dt>Телефон</dt><dd>' + val(CONFIG.phone, 'заполнить') + '</dd></div>' +
-  '<div><dt>WhatsApp</dt><dd>' + (CONFIG.whatsapp ? '<a href="' + waLink('') + '" target="_blank" rel="noopener" data-wa="footer">Написать</a>' : tbd('заполнить')) + '</dd></div>' +
-  '<div><dt>E-mail</dt><dd>' + val(CONFIG.email, 'заполнить') + '</dd></div>' +
-  '<div><dt>Адрес</dt><dd>' + val(CONFIG.address, 'заполнить, если есть офис') + '</dd></div>';
-document.getElementById('social-list').innerHTML =
-  (CONFIG.instagram ? '<li><a href="' + esc(CONFIG.instagram) + '" target="_blank" rel="noopener" data-track="social_click" data-place="instagram">Instagram</a></li>' : '') +
-  '<li>' + tbd('Другие соцсети — при наличии') + '</li>';
-
-renderSummary(); renderAlt();
-</script>
-
-</body></html>
+<footer class="footer"><div class="wrap"><div class="footer-in"><div><h3>Премьер Аудит</h3><p>Юридическое и бухгалтерское сопровождение ИП и ОсОО в Кыргызстане.</p></div><div><h3>Услуги</h3><ul><li><a href="#services">Юридическое сопровождение</a></li><li><a href="#services">Бухгалтерское сопровождение</a></li><li><a href="#cases">Практика</a></li></ul></div><div><h3>Компания</h3><ul><li><a href="#about">О компании</a></li><li><a href="#team">Команда</a></li><li><a href="#faq">Вопросы</a></li></ul></div><div><h3>Контакты</h3><ul><li>Бишкек, Кыргызстан</li><li><a href="tel:+996555000000">+996 555 00 00 00</a></li><li><a href="mailto:info@premier-audit.kg">info@premier-audit.kg</a></li></ul></div></div><div class="footer-bottom"><span>© 2026 ОсОО «Премьер Аудит»</span><span>Политика конфиденциальности · Условия оказания услуг</span></div></div></footer>
+<a class="mobile-cta" href="#contacts">Обсудить задачу</a>
+<script>const menu=document.querySelector('.menu'),mobile=document.querySelector('.mobile');menu.addEventListener('click',()=>{const open=mobile.classList.toggle('nav-open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Закрыть меню':'Открыть меню');document.body.classList.toggle('nav-open',open)});mobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobile.classList.remove('nav-open');document.body.classList.remove('nav-open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Открыть меню')}));document.querySelectorAll('.faq button').forEach(b=>b.addEventListener('click',()=>{const a=b.nextElementSibling;const open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));a.hidden=open;b.lastElementChild.textContent=open?'+':'−';b.lastElementChild.style.transform=open?'':'rotate(180deg)'}));
+document.body.classList.add('motion-ready');const motionTargets=document.querySelectorAll('.proofbar-item,.partners-copy,.logo,.intro-aside,.intro-main,.service-row,.format-item,.credential,.case-main,.case-side,.metric,.timeline-item,.quote-layout,.person,.faq-list,.contact-layout');motionTargets.forEach((el,index)=>{el.classList.add('reveal');el.style.setProperty('--delay',`${Math.min(index%5,4)*55}ms`)});if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches&&'IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.14,rootMargin:'0px 0px -40px'});motionTargets.forEach(el=>observer.observe(el));setTimeout(()=>motionTargets.forEach(el=>el.classList.add('is-visible')),1400)}else{motionTargets.forEach(el=>el.classList.add('is-visible'))}</script>
+<script>const reviewTrack=document.querySelector('.review-track');const reviewSlides=document.querySelectorAll('.review-slide');let reviewIndex=0;function showReview(index){reviewIndex=(index+reviewSlides.length)%reviewSlides.length;reviewTrack.style.transform=`translateX(-${reviewIndex*100}%)`;reviewSlides.forEach((slide,i)=>slide.setAttribute('aria-hidden',String(i!==reviewIndex)))}document.querySelector('[data-review-prev]').addEventListener('click',()=>showReview(reviewIndex-1));document.querySelector('[data-review-next]').addEventListener('click',()=>showReview(reviewIndex+1));showReview(0);</script>
+</body>
+</html>
